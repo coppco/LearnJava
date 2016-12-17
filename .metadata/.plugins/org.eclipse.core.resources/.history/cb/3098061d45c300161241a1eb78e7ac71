@@ -1,0 +1,15 @@
+package com.coppco.stringBuffer;
+
+public class Deo4_Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = {1,2,3};
+		StringBuffer sb = new StringBuffer();
+		sb.append(arr);
+		System.out.println(sb);
+	}
+
+}

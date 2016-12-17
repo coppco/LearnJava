@@ -1,0 +1,19 @@
+package com.github.test;
+
+public class HJ_String_Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 1.×Ö·û´®µÄ±È½Ï
+		 */
+		
+		String s1 = "abc";
+		String s2 = "abc";
+		System.out.println(s1 == s2);
+		System.out.println(s1.equals(s2));
+	}
+
+}

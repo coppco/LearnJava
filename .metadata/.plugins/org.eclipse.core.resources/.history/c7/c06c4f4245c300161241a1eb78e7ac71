@@ -1,0 +1,20 @@
+package com.coppco.stringBuffer;
+
+public class Deo4_Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = {1,2,3};
+		StringBuffer sb = new StringBuffer();
+		sb.append("\"[");
+		for (int i = 0; i < arr.length; i++) {
+			sb.append(arr[i] + ", ");
+		}
+		sb.deleteCharAt(sb.length() - 1);
+		sb.append("]");
+		System.out.println(sb.toString());
+	}
+
+}

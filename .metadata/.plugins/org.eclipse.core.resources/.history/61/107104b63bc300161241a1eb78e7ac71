@@ -1,0 +1,14 @@
+package com.coppco.stringBuffer;
+
+public class Demo_StringBuffer {
+	
+	
+	public static void main(String[] args) {
+		/*
+		 * 构造方法
+		 */
+		
+		StringBuffer sb = new StringBuffer();
+		System.out.println(sb.length());
+	}
+}

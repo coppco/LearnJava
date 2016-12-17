@@ -1,0 +1,5 @@
+package com.github.Animal;
+
+public abstract class Aniaml {
+
+}

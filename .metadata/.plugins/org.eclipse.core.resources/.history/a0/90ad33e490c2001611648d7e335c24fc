@@ -1,0 +1,16 @@
+package com.github.string;
+
+public class HJ_String_Mothed1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String s1 = "coppco";
+		String s2 = "c这里是中文哦!";
+		System.out.println(s1.length());
+		System.out.println(s2.length());
+		
+	}
+
+}

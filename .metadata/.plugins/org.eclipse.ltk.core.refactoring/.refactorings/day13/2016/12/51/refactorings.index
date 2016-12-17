@@ -1,0 +1,7 @@
+1481858687448	Extract method 'append'
+1481859197278	Extract method 'insert'
+1481859262695	Extract method 'delete'
+1481859879307	Extract method 'replace'
+1481859907140	Extract method 'reverse'
+1481860256816	Extract method 'substring'
+1481860651704	Rename type 'Demo_StringToStringBuffer'

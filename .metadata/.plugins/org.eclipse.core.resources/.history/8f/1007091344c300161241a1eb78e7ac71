@@ -1,0 +1,12 @@
+package com.coppco.stringBuffer;
+
+public class Demo3_StringBufferToString {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

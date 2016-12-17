@@ -1,0 +1,42 @@
+package com.github.string;
+
+public class Demo2_Method {
+	public static void main(String[] args) {
+//		Demo1();
+		
+//		Demo2();
+		
+		char[] arr = {'1','b','c',97};
+		
+		String str = String.valueOf(arr);
+		System.out.println(str);
+		
+		String str1 = new String(arr);
+		System.out.println(str1);
+		
+		String str2 = String.valueOf(100);
+		System.out.println(str2);
+	}
+
+	private static void Demo2() {
+		String str = "coppco";
+		char[] arr = str.toCharArray();
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+
+	private static void Demo1() {
+		String s1 = "coppco";
+		byte[] arr = s1.getBytes();
+		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+		s1 = "中文试试, 中文可以吗琲";
+		arr = s1.getBytes();
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package com.github.scanner;
+
+public class HJ_Scanner {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

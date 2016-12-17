@@ -1,0 +1,45 @@
+package com.github.string;
+
+public class HJ_String_Mothed1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		Demo0();
+		
+//		Demo1();
+		
+		String str = "123456789";
+		for (int i = 0; i < str.length(); i++) {
+			char c = str.charAt(i);
+			System.out.println(c);
+			
+		}
+		
+	}
+
+	private static void Demo0() {
+		String s1 = "coppco";
+		String s2 = "这里是中文哦!";
+		String s3 = "";
+		System.out.println(s1.length());
+		System.out.println(s2.length());
+		System.out.println(s3.length());
+		
+		String s4 = "coppco";
+		char c = s4.charAt(0);
+		System.out.println(c);
+	}
+
+	private static void Demo1() {
+		String s5 = "abc";
+		int index1 = s5.indexOf(97);
+		int index3 = s5.indexOf(980);
+		int index2 = s5.indexOf('b');
+		
+		System.out.println(index1 + index2);
+		System.out.println(index3);
+	}
+
+}

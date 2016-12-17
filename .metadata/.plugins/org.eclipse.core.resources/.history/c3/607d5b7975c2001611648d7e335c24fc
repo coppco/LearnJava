@@ -1,0 +1,20 @@
+package com.github.string;
+
+public class HJ_String {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "abc";
+		System.out.println(str);
+		str = "def";
+		System.out.println(str);
+		
+		
+		byte[] arr = {1,4,,5,7,0};
+		String byteS = new String(arr);
+		System.out.println(byteS);
+	}
+
+}

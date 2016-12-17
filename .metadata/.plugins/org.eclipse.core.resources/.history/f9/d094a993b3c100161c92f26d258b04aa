@@ -1,0 +1,13 @@
+package com.github.Animal;
+
+public class Cat extends Aniaml {
+
+	@Override
+	public void eat() {
+	}
+
+	@Override
+	public void sleep() {
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.github.object;
+
+public class Demo_HashCode {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

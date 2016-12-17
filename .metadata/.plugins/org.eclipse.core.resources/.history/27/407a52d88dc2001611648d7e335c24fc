@@ -1,0 +1,12 @@
+package com.github.login;
+
+public class HJ_Login {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.github.string;
+
+public class HJ_String {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

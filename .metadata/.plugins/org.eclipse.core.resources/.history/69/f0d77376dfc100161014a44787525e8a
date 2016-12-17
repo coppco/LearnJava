@@ -1,0 +1,14 @@
+package com.github.object;
+
+public class Demo_HashCode {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Object object = new Object();
+		int hashCode = object.hashCode();
+		System.out.println(hashCode);
+	}
+
+}

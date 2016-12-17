@@ -1,0 +1,17 @@
+package com.github.object;
+
+import com.github.eclipse.Student;
+
+public class Demo_GetClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Student student = new Student("ÀîËÄ", 24);
+		Class clszz = student.getClass();
+		
+		System.out.println(clszz);
+	}
+
+}

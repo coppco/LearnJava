@@ -1,0 +1,17 @@
+package com.coppco.stringBuffer;
+
+public class Demo1_StringBuffer {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * append
+		 */
+		StringBuffer sb = new StringBuffer();
+		sb.append(sb);
+		System.out.println(sb);
+	}
+
+}

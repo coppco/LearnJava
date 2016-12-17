@@ -1,0 +1,15 @@
+package com.github.eclipse;
+
+public class Student {
+
+	public Student() {
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

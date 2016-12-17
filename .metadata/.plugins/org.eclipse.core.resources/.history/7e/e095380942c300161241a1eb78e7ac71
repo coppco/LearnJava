@@ -1,0 +1,63 @@
+package com.coppco.stringBuffer;
+
+public class Demo1_StringBuffer {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		append();
+		
+//		insert();
+//		delete();
+		
+//		replace();
+		/*
+		 * 反转reverse
+		 */
+		StringBuffer sb = new StringBuffer("coppco");
+		sb.reverse();
+		System.out.println(sb);
+	}
+
+	public static void replace() {
+		/*
+		 * 替换replace
+		 */
+		StringBuffer sb = new StringBuffer("coppco");
+		sb.replace(0, 3, "替换对对对");
+		System.out.println(sb);
+	}
+
+	public static void delete() {
+		/*
+		 * delete 删除
+		 */
+		StringBuffer sb = new StringBuffer();
+		sb.append("coppco");
+		sb.deleteCharAt(1);
+		sb.delete(0, 2);
+		System.out.println(sb);
+	}
+
+	public static void insert() {
+		/*
+		 * insert 插入
+		 */
+		StringBuffer sb = new StringBuffer();
+		sb.insert(0, "coppco");
+		System.out.println(sb);
+	}
+
+	public static void append() {
+		/*
+		 * append 拼接
+		 */
+		StringBuffer sb = new StringBuffer();
+		sb.append(true);
+		sb.append("coppco");
+		
+		System.out.println(sb);
+	}
+
+}

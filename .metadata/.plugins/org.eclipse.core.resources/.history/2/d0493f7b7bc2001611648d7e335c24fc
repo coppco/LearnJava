@@ -1,0 +1,30 @@
+package com.github.test;
+
+public class HJ_String_Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 1.×Ö·û´®µÄ±È½Ï
+		 */
+		
+		String s1 = "abc";
+		String s2 = "abc";
+		System.out.println(s1 == s2);
+		System.out.println(s1.equals(s2));
+		
+		String s1 = "a" + "b" + "c";
+		String s2 = "abc";
+		System.out.println(s1 == s2);
+		System.out.println(s1.equals(s2));
+		
+		String s5 = "def";
+		String s6 = new String("def");
+		System.out.println(s5 == s6);
+		System.out.println(s5.equals(s6));
+		
+	}
+
+}
