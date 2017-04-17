@@ -1,0 +1,26 @@
+package com.github.coppco;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Date;
+import java.util.Properties;
+
+public class Demo5_Propeties {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		Properties prop = new Properties();
+		prop.load(new FileInputStream("config.ini"));
+		prop.put("date", new Date().toString());
+		prop.setProperty("tel", "1510571xxxx");
+		prop.store(new FileOutputStream("config.ini"), "");
+		
+	}
+
+}

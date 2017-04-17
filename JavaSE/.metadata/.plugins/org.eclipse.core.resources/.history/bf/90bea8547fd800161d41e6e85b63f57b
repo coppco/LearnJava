@@ -1,0 +1,43 @@
+package com.github.coppco;
+
+import java.lang.reflect.Constructor;
+
+public class Demo2_Construstor {
+
+	/**
+	 * @param args
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 * @throws ClassNotFoundException 
+	 */
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+		Class clazz = Class.forName("com.github.coppco.Student");
+		//Object o = clazz.newInstance();
+		Constructor[] arr = clazz.getConstructors();
+		System.out.println(arr.length);
+		for (Constructor constructor : arr) {
+			for (Class clazzz : constructor.getParameterTypes()) {
+				System.out.println(clazzz);
+			}
+			
+		}
+		int a = 10_0_0;
+	}
+
+}
+
+class Student {
+	String name;
+	int age;
+	private Student() {
+		super();
+		
+	}
+	public Student(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	
+}

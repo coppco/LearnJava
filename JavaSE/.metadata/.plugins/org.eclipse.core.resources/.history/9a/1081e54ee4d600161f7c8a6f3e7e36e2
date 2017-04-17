@@ -1,0 +1,57 @@
+package com.github.coppco;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.util.Scanner;
+
+public class Demo3_Thread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Thread receive = new Thread() {
+			public void run() {
+				try {
+					DatagramSocket socket = new DatagramSocket(8008);
+					DatagramPacket packet = new DatagramPacket(new byte[1024], 2014);
+					while (true) {						
+						socket.receive(packet);
+						System.out.println(packet.getAddress().getHostAddress() + new String(packet.getData(), 0, packet.getLength()));
+					}
+				} catch (Exception e) {
+					
+					e.printStackTrace();
+				}
+			};
+		};
+		Thread send = new Thread() {
+			public void run() {
+				try {
+					DatagramSocket socket = new DatagramSocket();
+					Scanner sc = new Scanner(System.in);
+					DatagramPacket packet = new DatagramPacket(null, 1, InetAddress.getByName("127.0.0.1"), 8008);
+					while (true) {
+						String data = sc.nextLine() + "----";
+						System.out.println(data + "---------");
+						if ("quit".equals(data)) {
+							break;
+						}
+						packet.setData(data.getBytes(), 0, data.length());
+						socket.send(packet);
+					}
+					socket.close();
+				} catch (Exception e) {
+					
+					e.printStackTrace();
+				}
+			};
+		};
+		
+		receive.start();
+		send.start();
+	}
+
+}

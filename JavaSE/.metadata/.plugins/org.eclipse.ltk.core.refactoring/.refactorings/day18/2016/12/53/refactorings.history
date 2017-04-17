@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void seaPoker(TreeSet&lt;Integer&gt; ts1)&apos; from &apos;com.github.map.Demo4_Test.main()&apos; to &apos;com.github.map.Demo4_Test&apos;&#x0D;&#x0A;- Original project: &apos;day18&apos;&#x0D;&#x0A;- Method name: &apos;seaPoker&apos;&#x0D;&#x0A;- Destination type: &apos;com.github.map.Demo4_Test&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;&#x0D;&#x0A;- Replace occurrences of statements with method" comments="false" description="Extract method &apos;seaPoker&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.github.map{Demo4_Test.java" name="seaPoker" replace="true" selection="1405 24" stamp="1482905186368" version="1.0" visibility="1"/>
+</session>

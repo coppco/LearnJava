@@ -1,0 +1,23 @@
+package com.github.coppco;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+
+public class Demo1_Send {
+
+	/**
+	 * @param UDP
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		DatagramSocket socket = new DatagramSocket();
+		String data = "what are you doing?";
+		DatagramPacket packet = new DatagramPacket(data.getBytes(), data.length(), InetAddress.getByName("127.0.0.1"), 6666);
+		socket.send(packet);
+		socket.close();
+	}
+
+}

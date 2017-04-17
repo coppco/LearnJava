@@ -1,0 +1,18 @@
+package com.githut.coppco;
+
+public class Demo1_Singleton {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
+
+
+class Singleton {
+	//私有化构造方法
+	private Singleton
+}

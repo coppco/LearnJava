@@ -1,0 +1,47 @@
+package com.github.coppco;
+
+public class Demo1_Thread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		 /*//方式1
+		 MyThread thread = new MyThread();
+		thread.start();*/
+		
+		//方式2
+		TwoThread tt = new TwoThread();
+		Thread thread = new Thread(tt);
+		thread.start();
+		
+		while (true) {
+			System.out.println("2");
+		}
+	}
+
+}
+
+/*
+ * 方式1
+ */
+class MyThread extends Thread {
+	@Override
+	public void run() {
+		while (true) {
+			System.out.println("1");
+		}
+	}
+}
+
+class TwoThread implements Runnable {
+
+	@Override
+	public void run() {
+		while (true) {
+			System.out.println("1");
+		}
+	}
+	
+}

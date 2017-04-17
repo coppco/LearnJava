@@ -1,0 +1,12 @@
+package com.github.tcp;
+
+public class Demo6_Server {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,27 @@
+1484022135281	Extract method 'init'
+1484025752245	Convert local variable 'send' to field
+1484025755952	Convert local variable 'log' to field
+1484025759656	Convert local variable 'shake' to field
+1484025764840	Convert local variable 'clear' to field
+1484025784072	Convert local variable 'receiveT' to field
+1484025787724	Convert local variable 'sendT' to field
+1484026126159	Convert local variable 'tf' to field
+1484028361307	Convert local variable 'socket' to field
+1484028909461	Convert local variable 'writer' to field
+1484028968507	Extract local variable 'writeMessage'
+1484029051723	Extract local variable 'writeMessage'
+1484032593475	Rename type 'Demo3_GUIChat'
+1484033423755	Rename package 'com.github.coppco'
+1484035078747	Rename type 'Demo6_Server'
+1484035090488	Copy compilation unit
+1484035100045	Copy compilation unit
+1484036264937	Rename type 'Demo1'
+1484039623397	Extract local variable 'sendMessage'
+1484041672318	Copy compilation unit
+1484041700724	Rename type 'Test1_Client'
+1484041739102	Rename type 'Test1_Server'
+1484043802177	Extract local variable 'inputStream'
+1484044214645	Delete element
+1484044504723	Delete element
+1484044803102	Delete element
+1484044806036	Delete element

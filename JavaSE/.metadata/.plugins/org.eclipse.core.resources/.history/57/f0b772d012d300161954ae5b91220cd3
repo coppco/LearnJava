@@ -1,0 +1,12 @@
+package com.github.coppco;
+
+public class Demo5_Propeties {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

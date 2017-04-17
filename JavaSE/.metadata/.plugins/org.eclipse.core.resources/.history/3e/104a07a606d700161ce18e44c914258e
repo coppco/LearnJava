@@ -1,0 +1,30 @@
+package com.github.coppco;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.util.Scanner;
+
+public class Demo1_Send {
+
+	/**
+	 * @param UDP
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		DatagramSocket socket = new DatagramSocket();
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			String data = sc.nextLine();
+			if ("quit".equals(data)) {
+				break;
+			}
+			DatagramPacket packet = new DatagramPacket(data.getBytes(), data.getBytes().length, InetAddress.getByName("127.0.0.1"), 6666);
+			socket.send(packet);
+		}
+		socket.close();
+	}
+
+}

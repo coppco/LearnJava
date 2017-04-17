@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+D:\SourceTreeCode\LearnJava\Java Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3181153034.index
+\day01\src
+D:\SourceTreeCode\LearnJava\Java Web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2215753679.index
+\day02\src

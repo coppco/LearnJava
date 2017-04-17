@@ -1,0 +1,12 @@
+package com.github.coppco;
+
+public class Demo6_Ticket {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.coppco.test;
+
+public class FileUpload_Client {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

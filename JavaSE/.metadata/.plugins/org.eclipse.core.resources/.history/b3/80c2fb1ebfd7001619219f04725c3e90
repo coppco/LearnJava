@@ -1,0 +1,12 @@
+package com.github.coppco;
+
+public class Demo4_Tool {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

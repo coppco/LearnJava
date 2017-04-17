@@ -1,0 +1,29 @@
+package com.github.coppco;
+
+public class Demo6_Ticket {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Thread t = new Ticket();
+		t.start();
+	}
+
+}
+
+
+class Ticket extends Thread{
+	private int total = 100;
+	
+	public void run() {
+		while (true) {
+			if (total != 0) {
+				System.out.println("这是第" + (100-(--total)) + "号票");
+			} else {
+				System.out.println("票已售罄!");
+				break;
+			}
+		}
+	}
+}

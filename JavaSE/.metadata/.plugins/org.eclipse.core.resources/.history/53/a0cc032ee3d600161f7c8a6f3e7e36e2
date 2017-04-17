@@ -1,0 +1,12 @@
+package com.github.coppco;
+
+public class Demo3_Thread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

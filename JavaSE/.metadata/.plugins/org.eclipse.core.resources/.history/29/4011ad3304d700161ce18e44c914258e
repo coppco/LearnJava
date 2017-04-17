@@ -1,0 +1,275 @@
+package com.github.coppco;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.Panel;
+import java.awt.TextArea;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import java.io.BufferedInputStream;
+import java.io.BufferedWriter;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.security.KeyRep;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Demo3_GUIChat extends Frame {
+	
+	private Button send;
+	private Button log;
+	private Button shake;
+	private Button clear;
+	private TextArea receiveT;
+	private TextArea sendT;
+	private TextField tf;
+	private DatagramSocket socket;
+	private BufferedWriter writer;
+
+	private Demo3_GUIChat() {
+		init();  //初始化位置 大小
+		southPanel(); //下方输入框
+		centerPanel();  //显示文本
+		event(); //事件
+		
+		receiveMessage(); //接受方法
+	}
+	private void receiveMessage() {
+		new ReceiveThread().start();
+	}
+	private void event() {
+		//关闭按钮
+		this.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {//关闭按钮
+				socket.close();
+				try {
+					writer.close();
+				} catch (IOException e1) {
+					
+					e1.printStackTrace();
+				}
+				System.exit(0);
+			}
+		});
+		
+		//发送按钮事件
+		send.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				try {
+					send();
+				} catch (IOException e1) {
+					
+					e1.printStackTrace();
+				}
+			}
+		});
+		//清屏
+		clear.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				receiveT.setText("");
+			}
+		});
+		//记录
+		log.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				try {
+					logFile();
+				} catch (IOException e1) {
+					
+					e1.printStackTrace();
+				}
+			}
+		});
+		
+		//震动
+		shake.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+//				shake();
+				String ip = tf.getText(); //获取ip地址
+
+				try {
+					DatagramPacket packet = new DatagramPacket(new byte[] {-1}, 1, InetAddress.getByName(ip), 9999);
+					socket.send(packet);
+				} catch (Exception e1) {
+					
+					e1.printStackTrace();
+				}
+			}
+		});
+		//键盘监听
+		sendT.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyReleased(KeyEvent e) {
+//				if (e.getKeyCode() == KeyEvent.VK_ENTER && e.isControlDown()) { //按住ctrl 然后按回车
+				if (e.getKeyCode() == KeyEvent.VK_ENTER) { //按回车	
+					try {
+						send();
+					} catch (IOException e1) {
+						
+						e1.printStackTrace();
+					}
+				}
+			}
+		});
+	}
+	protected void shake() {
+		int x = this.getLocation().x;
+		int y = this.getLocation().y;
+		
+		for (int i = 0; i < 5; i++) {
+			try {
+				this.setLocation(x + 20, y + 20);
+				Thread.sleep(20);
+				this.setLocation(x + 20, y - 20);
+				Thread.sleep(20);
+				this.setLocation(x - 20, y + 20);
+				Thread.sleep(20);
+				this.setLocation(x - 20, y - 20);
+				Thread.sleep(20);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		this.setLocation(x, y);
+	}
+	protected void logFile() throws IOException {
+		writer.flush(); //刷新缓存
+		
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream("config.txt"));
+		ByteArrayOutputStream baos = new ByteArrayOutputStream(); //在内存中创建缓冲区
+		int length;
+		while ((length = bis.read()) != -1) {
+			baos.write(length);
+		}
+		
+		String str = baos.toString();
+		receiveT.setText(str);
+		bis.close();
+		baos.close();
+	}
+	//发送消息
+	protected void send() throws IOException {
+		String message = sendT.getText(); //获取发送区域内容
+		String ip = tf.getText(); //获取ip地址
+		DatagramPacket packet = new DatagramPacket(message.getBytes(), message.getBytes().length, InetAddress.getByName(ip), 9999);
+		socket.send(packet);
+		
+		String time = getCurrentTime();
+		String writeMessage = time + "  我对" + ip + "说\r\n" + message;
+		writer.write(writeMessage); //写到文本中
+		
+		receiveT.append(writeMessage);
+		sendT.setText("");
+	}
+	//时间格式化
+	private String getCurrentTime() {
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		return format.format(new Date());
+	}
+	//中间部分
+	private void centerPanel() {
+		Panel center = new Panel();
+		receiveT = new TextArea();
+		receiveT.setEditable(false); //接受区域不能编辑
+		receiveT.setBackground(Color.WHITE);//设置背景颜色
+		sendT = new TextArea(5, 1);
+		
+		//设置字体
+		receiveT.setFont(new Font("xxx", Font.PLAIN, 15));
+		sendT.setFont(new Font("xxx", Font.PLAIN, 15));
+		
+		center.setLayout(new BorderLayout()); //设置为 边界布局管理器
+		center.add(sendT, BorderLayout.SOUTH); //放在南边
+		center.add(receiveT, BorderLayout.CENTER);//放在中间
+		
+		this.add(center, BorderLayout.CENTER);
+	}
+	//下面部分
+	private void southPanel() {
+		Panel south = new Panel();
+		tf = new TextField("127.0.0.1", 10);
+		send = new Button("发送");
+		log = new Button("记录");
+		clear = new Button("清屏");
+		shake = new Button("震动");
+		
+		south.add(tf);
+		south.add(send);
+		south.add(log);
+		south.add(clear);
+		south.add(shake);
+		
+		this.add(south, BorderLayout.SOUTH);//将south放在frame的南边
+	}
+
+	private void init() {
+		this.setLocation(450, 50);
+		this.setSize(400, 600);
+		
+		try {
+			writer = new BufferedWriter(new FileWriter("config.txt", true));
+			socket = new DatagramSocket();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		this.setVisible(true);
+	}
+	
+	
+	
+	private class ReceiveThread extends Thread {
+		@Override
+		public void run() {
+			DatagramSocket socket;
+			try {
+				socket = new DatagramSocket(9999);
+				while (true) {
+					DatagramPacket packet = new DatagramPacket(new byte[8192], 8192);
+					socket.receive(packet);
+					if (packet.getData()[0] == -1 && packet.getLength()== 1) {
+						shake();	
+					} else {
+						String message = new String(packet.getData(), 0, packet.getLength());
+						String writeMessage = "\r\n" + getCurrentTime() + "  " + packet.getAddress().getHostAddress() + "对我说\r\n" + message + "\r\n\r\n";
+						writer.write(writeMessage);
+						receiveT.append(writeMessage);
+					}				
+				}
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		new Demo3_GUIChat();
+	}
+
+}
