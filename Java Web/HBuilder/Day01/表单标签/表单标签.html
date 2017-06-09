@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<!--
+			
+		表单标签 form 从浏览器端收集用户信息
+			input 标签 输入框
+				type
+					text 文本框
+					password密码框
+					radio 单选框
+					checkbox 多选框
+					file 文件选择器
+					submit 提交
+					button 普通按钮
+					reset重置
+					hidden 隐藏
+					image 图片提交
+				name: 可以将几个单选框/复选框设置为一组, 要想把信息保存到服务器必须要有name属性
+					
+			select 下拉框
+				option 子标签
+			texarea 文本域
+		
+		-->
+		
+		<form method="get" action="#">
+			姓名: <input name="name" placeholder="请输入用户名"/><br />
+			密码: <input type="password" name="password" placeholder="请输入密码"/><br />
+			性别: <input type="radio" name="sex" value="男" checked="checked"/>男
+				<input type="radio" name="sex" value="女"/>女
+			<br />
+			爱好: <input type="checkbox" name="hobby" value="chi" />吃
+				<input type="checkbox" name="hobby" value="shui" checked="checked"/>睡
+				<input type="checkbox" name="hobby" value="wan"/>玩
+				<input type="checkbox" name="hobby" value="le"/>乐
+			<br />
+			头像: <input type="file" name="photo"/><br />
+			籍贯: 
+			<select name="省份">
+				<option value="001" selected="selected">浙江</option>
+				<option value="002">江苏</option>
+				<option value="003">上海</option>
+				<option value="004">北京</option>
+			</select>
+			<select name="城市">
+				<option>请选择</option>
+				<option value="00101">杭州</option>
+				<option value="00201">苏州</option>
+				<option value="00301">上海</option>
+				<option value="00401">北京</option>
+			</select><br />
+			自我介绍: <textarea name="介绍" cols="40" rows="10" placeholder="请输入个人介绍!"></textarea><br />
+			
+			同意协议: <input type="checkbox" name="agree"/>
+			<!--<input type="button" value="保存"/>
+			<input type="date" />
+			<input type="month" />-->
+			<input type="submit"/>
+		</form>
+		
+	</body>
+</html>
