@@ -1,0 +1,32 @@
+
+/*id选择器*/
+
+#name {
+	background-color:red ;
+	color: white;
+	width: 40%;
+	margin: auto; /*居中*/
+}
+
+/*class选择器*/
+
+.className {
+	background-color: cornsilk;
+	color: coral;
+	width: 70%;
+	height: 100px;
+	margin-top: 40px;
+
+}
+
+/*元素选择器*/
+span {
+	color: aqua;	
+}
+
+/*属性选择器*/
+
+div[app="iOS"] {
+	background-color: blue;
+	color: #FF0000;
+}

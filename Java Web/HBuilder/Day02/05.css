@@ -1,0 +1,128 @@
+/*header宽度100%*/
+.header {
+	width: 100%;
+	float: left;
+}
+/*header里面的div宽度 等分*/
+.header div {
+	width: 33.33%;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+}
+/*logo左对齐*/
+.header .logo {
+	text-align: left;
+}
+/*正品保障居中*/
+.header .baozhang {
+	text-align: center;
+}
+/*登录注册右对齐*/
+.header .login_logout {
+	text-align: right;
+}
+/*设置登录注册购物车右间距*/
+.header a {
+	margin-right: 20px;
+}
+/*去掉a标签的下划线*/
+a {
+	text-decoration: none;
+}
+
+/*菜单*/
+.menu {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+	margin: 10px, 0px;
+}
+.menu a {
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+/*轮播图*/
+.wheel {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.wheel img {
+	width: 100%;
+}
+
+/*热门商品*/
+.hot {
+	/*height: 300px;*/
+	float: left;
+	width: 100%;
+}
+
+.hot_title {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.hot div {
+	float: left;
+}
+
+.hot h2 {
+	display: inline;
+	margin-right: 20px;
+}
+
+.hot .left {
+	clear: both;
+	width: 16%;
+	height: 500px;
+}
+
+.right {
+	width: 84%;
+	text-align: center;
+	height: 500px;
+}
+
+.middle {
+	width: 50%;
+	height: 250px;
+}
+
+.img_right {
+	width: 16.66%;
+}
+
+#clear {
+	clear: both;
+}
+.img_bottom {
+	float: left;
+	width: 16.66%;
+	margin-top: 5px;
+	margin-bottom:5px ;
+	height: 250px;
+}
+
+.ade {
+	width: 100%;
+}
+
+.ade img {
+	width: 100%;
+}
+
+.information {
+	text-align: center;
+	margin-top: 20px;
+}
+.information a {
+	color: rgb(123,67,89);
+}

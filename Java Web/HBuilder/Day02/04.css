@@ -1,0 +1,17 @@
+.total {
+	width: 50%;	
+	background-color: red;
+}
+
+
+
+/*伪类选择器*/
+a:link{
+ color:#999999;
+}
+a:visited{
+ color:#FFFF00;
+}
+a:hover{
+ color:#006600;
+}
