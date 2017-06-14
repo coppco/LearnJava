@@ -1,6 +1,6 @@
 function scrollImage() {
 	//获取图片元素
-	var image = document.getElementById("wheel");
+	var image = document.getElementById("wheel1");
 	var index = 1;
 	setInterval(function show() {
 		index++;
@@ -10,4 +10,13 @@ function scrollImage() {
 		image.src = "./img/" + index + ".jpg";
 
 	}, 3000);
+	
+//	var ad = document.getElementById('ad');
+//
+//	setInterval(function showAd() {
+//		ad.style.display = 'inherit';
+//	}, 4000);
 }
+
+
+

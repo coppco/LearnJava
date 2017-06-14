@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<script type="text/javascript">
+			var str = "大家好才是真的好, 广州好迪!"
+			var index = 0;
+			function init() {
+				var time = setInterval(function showStr() {
+				if (index < str.length) {
+					document.write(str.substr(index, 1));
+					index++;
+				} else{
+					/*
+					 * 停止定时器
+					clearInterval(time);
+					*/
+					
+					
+					/*
+					 * 清空内容然后从头开始打印
+					 */
+					document.body.innerText = "";
+					index = 0;
+					
+				}
+			}, 300);
+			}
+//			function showStr() {
+//				document.writeln(str);
+//			}
+		</script>
+		
+	</head>
+	<body onload="init()" id="body">
+	</body>
+</html>

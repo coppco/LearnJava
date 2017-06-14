@@ -3,15 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>使用html+css+js重写首页</title>
-		<link rel="stylesheet" type="text/css" href="05.css"/>
-		<script type="text/javascript">
+		<link rel="stylesheet" type="text/css" href="01.css"/>
+		
+		<script src="01.js"></script>
 	
-		</script>
-		
-		<script src="js/05.js"></script>
-		
 	</head>
 	<body onload="scrollImage()">
+		<div id="ad" style="width: 100%; display: none;">
+			<img src="img/ad_.jpg" width="100%"/>
+		</div>
+		
 		<div>
 			<!--logo-->
 			<div class="header">
@@ -41,7 +42,7 @@
 			<!--轮播图-->
 			<div class="wheel" >
 				<div>
-					<img src="img/1.jpg" id="wheel"/>
+					<img src="img/1.jpg" id="wheel1"/>
 				</div>
 			</div>
 			
@@ -220,4 +221,29 @@
 			</div>
 		</div>
 	</body>
+
+		<script type="text/javascript">
+			//window的onload必须在body下面写, 不然不执行
+			var count = 0;
+			window.onload = function() {
+				//定时器, 每隔4秒显示
+				var timerid = setInterval(function() {
+					if (count < 3){
+						var ad = document.getElementById('ad');
+						ad.style.display = 'block';
+						//2秒后隐藏
+						setTimeout(function() {
+							ad.style.display = 'none';
+						} ,2000);
+						count++;
+					} else {
+						//3次之后不再显示
+						clearInterval(timerid);
+					}
+				
+				}, 4000);
+			};
+
+			
+		</script>
 </html>
