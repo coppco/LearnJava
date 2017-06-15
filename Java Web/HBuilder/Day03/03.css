@@ -1,0 +1,24 @@
+.table {
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	border: solid 1px #000;
+}
+
+tr, th {
+	width: 25%;
+}
+th {
+	border:solid #000 1px;
+	background-color: gray;
+}
+td {
+	border:solid #000 1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+

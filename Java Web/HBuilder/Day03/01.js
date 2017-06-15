@@ -9,7 +9,7 @@ function scrollImage() {
 		}
 		image.src = "./img/" + index + ".jpg";
 
-	}, 3000);
+	}, 1000);
 	
 //	var ad = document.getElementById('ad');
 //

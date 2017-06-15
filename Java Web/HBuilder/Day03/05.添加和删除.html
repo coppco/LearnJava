@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="05.css"/>
+		<script src="05.js"></script>
+	</head>
+	<body onload="changeColor()">
+		<table class="table">
+			<th>
+				<input type="checkbox" name="all" id="" value="" onclick="selectAll(this)" />
+			</th>
+			<th>分类ID</th>
+			<th>分类名称</th>
+			<th>分类描述</th>
+			<th>操作</th>
+			<tr onmouseover="moved(this)" onmouseleave="leaved(this)">
+				<td><input type="checkbox" name="phone" id="" value="" /></td>
+				<td>1</td>
+				<td>手机数码</td>
+				<td>手机数码类商品</td>
+				<td>
+					<a href="#">修改</a>
+					|
+					<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr onmouseover="moved(this)" onmouseleave="leaved(this)">
+				<td><input type="checkbox" name="computer" id="" value="" /></td> 
+				<td>2</td>
+				<td>电脑办公</td>
+				<td>电脑办公类商品</td>
+				<td>
+					<a href="#">修改</a>
+					|
+					<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr onmouseover="moved(this)" onmouseleave="leaved(this)">
+				<td><input type="checkbox" name="shoes" id="" value="" /></td>
+				<td>3</td>
+				<td>鞋靴箱包</td>
+				<td>鞋靴箱包类商品</td>
+				<td>
+					<a href="#">修改</a>
+					|
+					<a href="#">删除</a>
+				</td>
+			</tr>
+			<tr onmouseover="moved(this)" onmouseleave="leaved(this)">
+				<td><input type="checkbox" name="home" id="" value="" /></td>
+				<td>4</td>
+				<td>家居饰品</td>
+				<td>家居饰品类商品</td>
+				<td>
+					<a href="#">修改</a>
+					|
+					<a href="#">删除</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="5">
+					<input type="button" value="添加" />
+				<input type="button" value="删除" />
+				</td>
+				
+			</tr>
+		</table>
+	</body>
+</html>

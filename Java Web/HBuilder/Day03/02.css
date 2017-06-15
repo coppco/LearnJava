@@ -1,0 +1,54 @@
+.username {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.password {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.username span {
+	width: 20%;
+	/*background-color: red;*/
+	/*display:-moz-inline-box;*/
+	display:inline-block;
+	text-align: center;
+}
+
+.password span {
+	width: 20%;
+	/*background-color: red;*/
+	display:-moz-inline-box;
+	display:inline-block;
+	text-align: center;
+}
+
+.username input {
+	width: 30%;
+	text-align: left;
+}
+
+.password input {
+	width: 30%;
+	text-align: left;
+}
+
+.button {
+	text-align: center;
+}
+.button input{
+	width: 200px;
+	height: 50px;
+	background-color: #FFF8DC;
+	color: white;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#name_desc, #password_desc {
+	color: red;
+}

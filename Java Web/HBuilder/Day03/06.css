@@ -1,0 +1,27 @@
+table {
+	width: 60%;
+	border: solid #000000 1px;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+}
+
+td {
+	width: 33%;
+	text-align: center;
+}
+select {
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	margin: 20px, 0px, 20px, 0px;
+}
+
+option {
+	height: 10%;
+}
+
+input {
+	display: block;
+	width: 20%;
+}

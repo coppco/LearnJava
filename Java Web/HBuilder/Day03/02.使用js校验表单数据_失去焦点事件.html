@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="02.css"/>
+		
+	</head>
+	<body>
+		<form action="#" method="get" onsubmit="return checkValue()">
+		<div class="username">
+			<span class="left">用户名:</span>
+			<input id="name_input" type="text" name="username" placeholder="请输入用户名" onblur="getValue('username')" onfocus="clearText('username')"/>
+			<span id="name_desc"></span>
+		</div>
+		
+		<div class="password">
+			<span class="left">密码:</span>
+			<input id="password_input" type="password" name="password" placeholder="请输入密码" onblur="getValue('password')" onfocus="clearText('password')"/>
+			<span id="password_desc"></span>
+		</div>
+		
+		<div class="button">
+			<input type="submit" value="注册"/>
+			<input type="button" value="登录" id="haha"/>
+		</div>
+		</form>
+		
+		<span id="span"></span>
+	</body>
+	<script type="text/javascript" src="02.js">
+			
+		</script>
+</html>
