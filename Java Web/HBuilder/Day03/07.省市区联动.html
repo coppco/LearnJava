@@ -4,30 +4,22 @@
 		<meta charset="UTF-8">
 		<title>省市区联动</title>
 		<link rel="stylesheet" type="text/css" href="07.css"/>
+		<script type="text/javascript" src="07.js">
+		</script>
 	</head>
-	<body>
+	<body  onload="initCity()">
 		<div class="div">
-			<select>
-				<option>北京</option>
-				<option>上海</option>
-				<option>江苏</option>
-				<option>浙江</option>
-				<option>河南</option>
+			<select name="pro" onchange="selectPro(this.value)">
+				<option>-请选择-</option>
+				<option selected="selected" value="00">江苏</option>
+				<option value="01">浙江</option>
+				<option value="02">河南</option>
 			</select>
-			<select>
-				<option>北京</option>
-				<option>上海</option>
-				<option>江苏</option>
-				<option>浙江</option>
-				<option>河南</option>
-			</select>
-			<select>
-				<option>北京</option>
-				<option>上海</option>
-				<option>江苏</option>
-				<option>浙江</option>
-				<option>河南</option>
+			<select name="city">
+				<option>-请选择-</option>
 			</select>
 		</div>
 	</body>
 </html>
+
+

@@ -1,0 +1,39 @@
+.header {
+	width: 100%;
+}
+.header div{
+	float: left;
+	width: 33.33%;
+	height: 60px;
+}
+
+.H_left {
+	text-align: left;
+}
+.H_center {
+	text-align: center;
+}
+
+.H_right {
+	text-align: right;
+}
+
+.cle {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+.headerA {
+	width: 33.33%;
+	line-height: 60px;
+	margin-right: 20px;
+}
+
+
+.menu {
+	width: 100%;
+	background-color: #000;
+	height: 60px;
+}
