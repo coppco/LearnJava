@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var address = "https://www.baidu.com/s?wd=你好吗?"
+//			alert(encodeURI(address));
+			
+//			alert(parseInt("100.4a"));
+//			alert(Number("100.45a"));
+			
+			var addressEncode = encodeURI(address);
+			
+			var addressDe = decodeURI(addressEncode);
+			document.write(address + "<hr/>"); 
+			document.write(addressEncode + "<hr/>");
+
+			document.write(addressDe);
+			
+//			window.open(encodeURI(address));
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

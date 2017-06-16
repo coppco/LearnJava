@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="02.css"/>
+		<script src="js/jquery-1.8.3.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#show").click(function() {
+					$("#showDiv").toggle(2000, function() {
+						alert("show/hide");
+					});
+				});
+				
+				$("#slide").click(function() {
+					$("#slideDiv").slideToggle(2000, "linear", function() {
+						alert("slide");
+					});
+				})
+				
+				$("#fade").click(function() {
+					$("#fadeDiv").fadeToggle(2000, "swing", function() {
+						alert("fade");
+					});
+				})
+			});
+		</script>
+	</head>
+	<body style="text-align: center;">
+		<input type="button" name="show" id="show" value="显示/隐藏" />
+		<div id="showDiv">
+		
+		</div>
+		<input type="button" name="slide" id="slide" value="滑上/滑下" />
+		<div id="slideDiv">
+		
+		</div>
+		<input type="button" name="fade" id="fade" value="淡入/淡出" />
+		<div id="fadeDiv">
+		
+		</div>
+	</body>
+</html>
