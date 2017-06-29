@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+    <title>投资者风险评估</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: #e5e5e5;
+        }
+        a,img,button,input,textarea,div {
+            -webkit-tap-highlight-color:rgba(255,255,255,0);
+        }
+        ul li {
+            list-style: none;
+            height: auto;
+            line-height: 40px;
+            color: #333;
+            font-size: 16px;
+            padding-right: 14px;
+            padding-left: 44px;
+            position: relative;
+        }
+        input {
+            display: none;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        ul li .radio {
+            display: inline-block;
+            width: 44px;
+            height: 39px;
+            background: url("./img/radio.png") no-repeat 0 0;
+            position: absolute;
+            top: -3px;
+            left: 0;
+        }
+        .questionCard {
+            margin-bottom: 20px;
+        }
+        .questionCard .line {
+            width: 96%;
+            height: 1px;
+            transform: scaleY(0.5);
+            background: #e5e5e5;
+            margin: 0 0 0 4%;
+        }
+        .topDesc {
+            padding: 14px;
+            color: #333;
+            font-size: 16px;
+            background: #fff;
+            margin: 14px 0 14px 0;
+        }
+        .container {
+            background: #fff;
+            padding-bottom: 60px;
+        }
+        .container .question {
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 14px;
+        }
+        @media screen and (max-width: 320px) and (min-width: 300px) {
+            .submitBtn {
+                width: 300px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 40px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+        }
+        @media screen and (max-width: 415px) and (min-width: 321px) {
+            .submitBtn {
+                width: 325px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 40px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="topDesc">
+        我们将对您进行风险承受能力评估。根据评估结果，您的风险承受能力将属于以下五种类型中的一种：保守型、稳健型、平衡型、成长型、进取型。为了给您提供更好的资产选择， 请您认真作答，感谢您的配合。
+    </div>
+    <div class="container" id="container">
+        <!-- question 01 -->
+        <div class="questionCard">
+            <div class="question">1. 您的年龄介于:</div>
+            <ul id="answerList01" class="assissment-item">
+                <label for="A"><li><input type="radio" value="A" id="A"><span class="radio"></span>A.18-30岁</li></label>
+                <label for="B"><li><input type="radio" value="B" id="B"><span class="radio"></span>B.31-45岁</li></label>
+                <label for="C"><li><input type="radio" value="C" id="C"><span class="radio"></span>C.45-60岁</li></label>
+                <label for="D"><li><input type="radio" value="D" id="D"><span class="radio"></span>D.高于60岁</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 02 -->
+        <div class="questionCard">
+            <div class="question">2. 您的年收入为:</div>
+            <ul id="answerList02" class="assissment-item">
+                <label for="A1"><li><input type="radio" value="A" id="A1"><span class="radio"></span>A.10万元以内</li></label>
+                <label for="B1"><li><input type="radio" value="B" id="B1"><span class="radio"></span>B.10万元至20万元</li></label>
+                <label for="C1"><li><input type="radio" value="C" id="C1"><span class="radio"></span>C.20万元至50万元</li></label>
+                <label for="D1"><li><input type="radio" value="D" id="D1"><span class="radio"></span>D.50万元以上</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 03 -->
+        <div class="questionCard">
+            <div class="question">3.在您每年可支配收入中，用于金融投资（储蓄存款除外）的比例为:</div>
+            <ul id="answerList03" class="assissment-item">
+                <label for="A2"><li><input type="radio" value="A" id="A2"><span class="radio"></span>A.不超过2万元</li></label>
+                <label for="B2"><li><input type="radio" value="B" id="B2"><span class="radio"></span>B.2万元至10万元</li></label>
+                <label for="C2"><li><input type="radio" value="C" id="C2"><span class="radio"></span>C.10万元至50万元</li></label>
+                <label for="D2"><li><input type="radio" value="D" id="D2"><span class="radio"></span>D.50万元以上</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 04 -->
+        <div class="questionCard">
+            <div class="question">4. 您的最高学历为:</div>
+            <ul id="answerList04" class="assissment-item">
+                <label for="A3"><li><input type="radio" value="A" id="A3"><span class="radio"></span>A.高中及以下</li></label>
+                <label for="B3"><li><input type="radio" value="B" id="B3"><span class="radio"></span>B.中专或大专</li></label>
+                <label for="C3"><li><input type="radio" value="C" id="C3"><span class="radio"></span>C.本科</li></label>
+                <label for="D3"><li><input type="radio" value="D" id="D3"><span class="radio"></span>D.硕士及以上</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 05 -->
+        <div class="questionCard">
+            <div class="question">5. 您的投资知识是:</div>
+            <ul id="answerList05" class="assissment-item">
+                <label for="A4"><li><input type="radio" value="A" id="A4"><span class="radio"></span>A.有限：基本没有金融产品方面的知识</li></label>
+                <label for="B4"><li><input type="radio" value="B" id="B4"><span class="radio"></span>B.一般：对金融产品及其相关风险具有基本的知识和理解</li></label>
+                <label for="C4"><li><input type="radio" value="C" id="C4"><span class="radio"></span>C.丰富：对金融产品及其相关风险具有丰富的知识和理解</li></label>
+                <label for="D4"><li><input type="radio" value="D" id="D4"><span class="radio"></span>D.专家：金融领域专家，投资经验丰富</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 06 -->
+        <div class="questionCard">
+            <div class="question">6. 您的投资经验可描述为:</div>
+            <ul id="answerList06" class="assissment-item">
+                <label for="A5"><li><input type="radio" value="A" id="A5"><span class="radio"></span>A.除银行储蓄外，基本没有其他投资经验</li></label>
+                <label for="B5"><li><input type="radio" value="B" id="B5"><span class="radio"></span>B.购买过银行理财，但基金、股票等产品没有购买过</li></label>
+                <label for="C5"><li><input type="radio" value="C" id="C5"><span class="radio"></span>C.基金、股票都买过，但不是特别了解</li></label>
+                <label for="D5"><li><input type="radio" value="D" id="D5"><span class="radio"></span>D.投资经验丰富，外汇、期货也有过交易</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 07 -->
+        <div class="questionCard">
+            <div class="question">7. 您有多少年投资银行理财、P2P、基金、股票、信托等金融产品的经验:</div>
+            <ul id="answerList07" class="assissment-item">
+                <label for="A6"><li><input type="radio" value="A" id="A6"><span class="radio"></span>A.少于2年</li></label>
+                <label for="B6"><li><input type="radio" value="B" id="B6"><span class="radio"></span>B.2至5年</li></label>
+                <label for="C6"><li><input type="radio" value="C" id="C6"><span class="radio"></span>C.5至10年</li></label>
+                <label for="D6"><li><input type="radio" value="D" id="D6"><span class="radio"></span>D.10年以上</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 08 -->
+        <div class="questionCard">
+            <div class="question">8. 您倾向的投资期限是多久:</div>
+            <ul id="answerList08" class="assissment-item">
+                <label for="A7"><li><input type="radio" value="A" id="A7"><span class="radio"></span>A.１个月以内的天标</li></label>
+                <label for="B7"><li><input type="radio" value="B" id="B7"><span class="radio"></span>B.1-3个月</li></label>
+                <label for="C7"><li><input type="radio" value="C" id="C7"><span class="radio"></span>C.4-12个月</li></label>
+                <label for="D7"><li><input type="radio" value="D" id="D7"><span class="radio"></span>D.12个月以上</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 09 -->
+        <div class="questionCard">
+            <div class="question">9. 以下哪项描述最符合您的投资态度:</div>
+            <ul id="answerList09" class="assissment-item">
+                <label for="A8"><li><input type="radio" value="A" id="A8"><span class="radio"></span>A.厌恶风险，不愿意承担任何投资风险</li></label>
+                <label for="B8"><li><input type="radio" value="B" id="B8"><span class="radio"></span>B.保守投资，尽可能保证本金安全，不在乎收益率较低</li></label>
+                <label for="C8"><li><input type="radio" value="C" id="C8"><span class="radio"></span>C.寻求资金的较高收益和成长性，愿承担一定的投资风险</li></label>
+                <label for="D8"><li><input type="radio" value="D" id="D8"><span class="radio"></span>D.实现资产大幅增长，愿承担较大的投资风险</li></label>
+            </ul>
+            <div class="line"></div>
+        </div>
+        <!-- question 10 -->
+        <div class="questionCard">
+            <div class="question">10. 假设有两种投资：投资A预期获得10%的收益，可能承担的损失非常小；投资B预期获得30%的收益，但可能承担较大亏损。您会怎么支配您的资金:</div>
+            <ul id="answerList10" class="assissment-item">
+                <label for="A9"><li><input type="radio" value="A" id="A9"><span class="radio"></span>A. 全部投资于收益较小且风险较小的A</li></label>
+                <label for="B9"><li><input type="radio" value="B" id="B9"><span class="radio"></span>B.同时投资于A和B，但大部分资金投资于收益较小且风险较小的A</li></label>
+                <label for="C9"><li><input type="radio" value="D" id="C9"><span class="radio"></span>C.同时投资于A和B，但大部分资金投资于收益较大且风险较大的B</li></label>
+                <label for="D9"><li><input type="radio" value="D" id="D9"><span class="radio"></span>D.全部投资于收益较大且风险较大的B</li></label>
+            </ul>
+        </div>
+        <div class="submitBtn" id="submitBtn">提交</div>
+    </div>
+</body>
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script>
+    // answerList
+    var list01 = document.getElementById('answerList01');
+    var list02 = document.getElementById('answerList02');
+    var list03 = document.getElementById('answerList03');
+    var list04 = document.getElementById('answerList04');
+    var list05 = document.getElementById('answerList05');
+    var list06 = document.getElementById('answerList06');
+    var list07 = document.getElementById('answerList07');
+    var list08 = document.getElementById('answerList08');
+    var list09 = document.getElementById('answerList09');
+    var list10 = document.getElementById('answerList10');
+
+    // answerEvent
+    var answer = function(list){
+        var item = list.getElementsByTagName('li');
+
+        var helper = function(i){
+            return function(e){
+
+                for(var j = 0; j < item.length; j++){
+                    item[j].style.backgroundColor = '';
+                    item[j].querySelector('.radio').style.top="-3px";
+                    item[j].querySelector('.radio').style.backgroundPosition = '0px 0px';
+                    item[j].querySelector('input').checked = false;
+                }
+                this.style.backgroundColor = '#e5e5e5';
+                this.querySelector('.radio').style.top="1px";
+                this.querySelector('.radio').style.backgroundPosition = '0px -39px';
+                this.querySelector('input').checked = true;
+            };
+        };
+        for(var i = 0; i < item.length; i++) {
+            item[i].addEventListener('click', helper(i))
+        }
+    };
+    // 提交按钮
+    submitBtn.addEventListener('click', function (form) {
+        var item = document.querySelectorAll('.assissment-item'),
+            data = [], // 用户选择数据
+            score = null,
+            rule = {'A':30,'B':40,'C':60,'D':80}; // 评分规则
+        for (var i = 0; i < item.length; i++) {
+            var obj = {};
+            obj.index = i+1;
+            obj.answer = $(item[i]).find('input:checked').val();
+            data.push(obj);
+            score += rule[obj.answer]; //总分数
+        };
+        var params = {
+            userId: '',
+            Score: score
+        };
+        if (!score || score < 300) {
+            alert('亲！您还未完成所有题目');
+        } else {
+            // 提交数据
+            $.ajax({
+                url: "url",
+                type: "post",
+                contentType: "application/json",
+                data: JSON.stringify(params),
+                timeout: 30000,
+                success:function(data){
+                    window.location.href = "/";
+                },
+                error:function(){
+                    alert("提交失败，请刷新重试");
+                }
+            })
+        }
+
+    });
+    answer(list01);
+    answer(list02);
+    answer(list03);
+    answer(list04);
+    answer(list05);
+    answer(list06);
+    answer(list07);
+    answer(list08);
+    answer(list09);
+    answer(list10);
+</script>
+</html>

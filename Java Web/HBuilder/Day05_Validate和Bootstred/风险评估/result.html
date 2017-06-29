@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+    <title>评审结果</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        a,img,button,input,textarea,div {
+            -webkit-tap-highlight-color:rgba(255,255,255,0);
+        }
+        .middleImg {
+            width: 224px;
+            height: 150px;
+            background: url("./img/BG02.png") no-repeat;
+            background-size: 100% 100%;
+            margin: 80px auto 0 auto;
+        }
+        @media screen and (max-width: 320px) and (min-width: 300px) {
+            .enterBtn {
+                width: 300px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 64px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+            .descText {
+                text-align: center;
+                padding: 8px;
+                color: #666;
+            }
+        }
+        @media screen and (max-width: 415px) and (min-width: 321px) {
+            .enterBtn {
+                width: 325px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 120px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+            .descText {
+                text-align: center;
+                padding: 20px;
+                color: #666;
+            }
+        }
+        .leixing {
+            text-align: center;
+            color: #333;
+        }
+        .score {
+            text-align: center;
+            color: #666;
+            margin-top: 8px;
+        }
+        .tip {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+        }
+        .logo {
+            width: 205px;
+            height: 25px;
+            background: url("./img/logo.png") no-repeat;
+            background-size: 100% 100%;
+            margin: 40px auto 8px auto;
+        }
+        .prompt {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="middleImg"></div>
+    <div class="leixing" id="leixing"></div>
+    <div class="score" id="qujian">(300-380分)</div>
+    <div class="descText" id="descText">您对风险比较敏感，投资时谨慎小心，更注重资产的安全性，确保本金绝对安全。</div>
+    <div class="enterBtn">重新评估</div>
+    <div class="tip">平台根据您的评估结果，进行精准的投资推荐</div>
+    <div class="logo"></div>
+    <div class="prompt">市场有风险，投资需谨慎</div>
+</div>
+</body>
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script>
+	$.ajax({
+		url: "http://192.168.1.162:8806/data.json",
+		type: "get",
+		success:function(data){
+			var score = Number(data.score);
+			if (score <= 380) {
+				document.getElementById('leixing').innerText = '谨慎型';
+				document.getElementById('qujian').innerText = '(300-380分)';
+				document.getElementById('descText').innerText = '您对风险比较敏感，投资时谨慎小心，更注重资产的安全性，确保本金绝对安全。';
+            } else if (score <= 480) {
+                document.getElementById('leixing').innerText = '稳健型';
+                document.getElementById('qujian').innerText = '(400-480分)';
+                document.getElementById('descText').innerText = '您对风险有一定认识，愿意承受轻度的投资风险，可以接受收益小幅波动，投资时选择安全稳健的产品。';
+            } else if (score <=580) {
+                document.getElementById('leixing').innerText = '平衡型';
+                document.getElementById('qujian').innerText = '(500-580分)';
+                document.getElementById('descText').innerText = '您是稳健的投资人，风险承受度适中，偏向于资产均衡配置，也追求一定的资产收益。';
+            } else if (score <= 680) {
+                document.getElementById('leixing').innerText = '积极型';
+                document.getElementById('qujian').innerText = '(600-680分)';
+                document.getElementById('descText').innerText = '您偏向于积极的资产配置，对风险有较高的承受能力，投资收益预期相对较高。';
+            } else if ( score <= 800) {
+                document.getElementById('leixing').innerText = '进取型';
+                document.getElementById('qujian').innerText = '(700-800分)';
+                document.getElementById('descText').innerText = '您的风险承受能力较高，投资时您大胆进取，勇于尝试资产配置。';
+            }
+		},
+		error:function(){
+			alert("网络错误，请刷新重试！");
+		}
+	})
+</script>
+</html>

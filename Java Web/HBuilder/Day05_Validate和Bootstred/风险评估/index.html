@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+    <title>投资者风险评估</title>
+    <!--<script src="./js/rem.js"></script>-->
+    <style>
+        a,img,button,input,textarea,div {
+            -webkit-tap-highlight-color:rgba(255,255,255,0);
+        }
+        .middleImg {
+            width: 224px;
+            height: 150px;
+            background: url("./img/BG01.png") no-repeat;
+            background-size: 100% 100%;
+            margin: 80px auto 0 auto;
+        }
+        .middleText {
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+            line-height: 24px;
+        }
+        @media screen and (max-width: 320px) and (min-width: 300px) {
+            .enterBtn {
+                width: 300px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 40px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+            .touziBtn {
+                width: 300px;
+                height: 44px;
+                background: url("./img/touziBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 44px;
+                margin: 4px auto 0 auto;
+                cursor: pointer;
+                color: #333;
+            }
+            #checkbox {
+                display: inline-block;
+                width: 41px;
+                height: 39px;
+                background: url("./img/checkbox.png") no-repeat 0 -39px;
+                position: absolute;
+                top: 0;
+                left: -5px;
+            }
+        }
+        @media screen and (max-width: 413px) and (min-width: 321px) {
+            .enterBtn {
+                width: 325px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 40px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+            .touziBtn {
+                width: 325px;
+                height: 44px;
+                background: url("./img/touziBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 44px;
+                margin: 4px auto 0 auto;
+                cursor: pointer;
+                color: #333;
+            }
+            #checkbox {
+                display: inline-block;
+                width: 41px;
+                height: 39px;
+                background: url("./img/checkbox.png") no-repeat 0 -39px;
+                position: absolute;
+                top: 0;
+                left: 20px;
+            }
+        }
+        @media screen and (min-width: 414px) {
+            .enterBtn {
+                width: 325px;
+                height: 52px;
+                background: url("./img/submitBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 45px;
+                margin: 80px auto 0 auto;
+                cursor: pointer;
+                color: #fff;
+            }
+            .touziBtn {
+                width: 325px;
+                height: 44px;
+                background: url("./img/touziBtn.png") no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                line-height: 44px;
+                margin: 4px auto 0 auto;
+                cursor: pointer;
+                color: #333;
+            }
+            #checkbox {
+                display: inline-block;
+                width: 41px;
+                height: 39px;
+                background: url("./img/checkbox.png") no-repeat 0 -39px;
+                position: absolute;
+                top: 0;
+                left: 34px;
+            }
+        }
+        .checkCon {
+            height: 39px;
+            line-height: 39px;
+            position: relative;
+            text-align: center;
+            font-size: 14px;
+            color: #999;
+            padding-left: 18px;
+        }
+        .logo {
+            width: 205px;
+            height: 25px;
+            background: url("./img/logo.png") no-repeat;
+            background-size: 100% 100%;
+            margin: 40px auto 8px auto;
+        }
+        .prompt {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="middleImg"></div>
+        <div class="middleText">
+            根据监管要求，在您投资前需要完成 <br>
+            风险承受能力测评，仅需10秒哟...
+        </div>
+        <div class="enterBtn" id="enterBtn">立即评估</div>
+        <div class="touziBtn">我已了解自己是谨慎性，立即投资</div>
+        <div class="checkCon" id="checkItem"><span id="checkbox"></span>同意平台收集并使用您的信息用于风险评估</div>
+        <div class="logo"></div>
+        <div class="prompt">市场有风险，投资需谨慎</div>
+    </div>
+</body>
+<script type="text/javascript">
+	window.onload = function() {
+		document.getElementsByClassName('touziBtn')[0].onclick = function() {
+//			alert("点击测试");
+			alert(document.title);
+		};
+	};
+</script>
+</html>
