@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id='a'>
+		id为a
+	 </bean>
+	 <bean>
+	 没有任何属性
+	 </bean>
+	 <bean>
+	 我们学习过&lt;a&gt;标签
+	 <![CDATA[<img>、<table>等标签]]>
+	 </bean>
+</beans>
