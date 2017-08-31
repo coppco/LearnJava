@@ -50,3 +50,10 @@ function clearText(name) {
 }
 
 
+
+function String getSHareText(type) {
+	
+}
+
+
+document.getElementById("haha23").addEventListener('click', showHelp())

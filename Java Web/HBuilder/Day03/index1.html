@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body {
+				margin: auto;
+				text-align: center;
+			}
+			input {
+				margin-top: 40px;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			function toNativePage(type) {
+				alert(type);
+			}
+		</script>
+	</head>
+	<body>
+		
+		<input type="button" value="登录" id="login"/><br/>
+		<input type="button" value="首页" id="home"/><br/>
+		<input type="button" value="注册" id="regest"/><br/>
+		<input type="button" value="我的奖励" id="reward"/><br/>
+		<input type="button" value="我的奖励(抵用金)" id="rewardIndex"/><br/>
+		<input type="button" value="活动中心" id="activity"/><br/>	
+		<input type="button" value="投资列表页" id="investList"/><br/>
+		<input type="button" value="具体标的页" id="detail"/><br/>
+		<input type="button" value="分享" id="share"/><br/>
+	</body>
+	<script type="text/javascript">
+		document.getElementById("login").addEventListener("click", toNativePage('login'));
+		document.getElementById("home").addEventListener("click", toNativePage('home'));
+		document.getElementById("regest").addEventListener("click", toNativePage('regest'));
+		document.getElementById("reward").addEventListener("click", toNativePage('reward'));
+		document.getElementById("rewardIndex").addEventListener("click", toNativePage('reward',"02"));
+		document.getElementById("activity").addEventListener("click", toNativePage('activity'));
+		document.getElementById("investList").addEventListener("click", toNativePage('investlist'));
+		document.getElementById("detail").addEventListener("click", toNativePage('invest','455'));
+		document.getElementById("share").addEventListener("click", shareMsg('https://www.baidu.com', '百度','百度一下你就知道', 'https://www.baidu.com/img/bd_logo1.png'));
+	</script>
+</html>

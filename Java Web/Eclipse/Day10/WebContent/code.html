@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img alt="验证码" src="/Day10/code" title="看不清换一张" onclick="changeImage(this)">
+</body>
+<script type="text/javascript">
+	function changeImage(obj) {
+		obj.src = "/Day10/code?time=" + Math.random();
+		//alert(this.src);
+	}
+</script>
+</html>

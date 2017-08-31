@@ -18,8 +18,9 @@ public class Loc2Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("从其他人这里借到钱了!");
-		response.setStatus(302);
-		response.setHeader("location", "https://www.baidu.com");
+//		response.setStatus(302);
+//		response.setHeader("location", "https://www.baidu.com");
+		response.sendRedirect("https://www.baidu.com");
 	}
 
 	/**
