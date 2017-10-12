@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+
+    <!--配置Bean-->
+
+    <bean id="customDaoIMP" class="com.coppco.Custom.CustomDaoIMP" >
+        <property name="name" value="向弘杰" />
+        <property name="sex" value="男" />
+    </bean>
+    <bean id="userDaoIMP" class="com.coppco.Dao.UserDaoIMP" >
+
+    </bean>
+    <bean id="customAspect" class="com.coppco.Custom.CustomAspect" />
+
+    <!--//开启注解扫描-->
+    <context:component-scan base-package="com.coppco"/>
+
+    <!--配置aop-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <aop:config>
+        <!--引入切面类-->
+        <aop:aspect ref="customAspect">
+            <!--通知类型、切面类的方法、切入点表达式-->
+            <aop:before method="log" pointcut="execution(public void com.coppco.Custom.CustomDaoIMP.*())"  />
+        </aop:aspect>
+    </aop:config>
+</beans>
+
+
+
+

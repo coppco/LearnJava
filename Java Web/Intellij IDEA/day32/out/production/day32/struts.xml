@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--约束-->
+        <!DOCTYPE struts PUBLIC
+                "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+                "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!--常量-->
+    <constant name="struts.action.extension" value="do,action,"></constant>
+<!--包结构-->
+<package name="default" namespace="/" extends="struts-default">
+    <!--配置action, name是访问的action名, class是action的全限类名, method是里面的方法-->
+    <action name="hello" class="com.coppco.action.HelloAction" method="sayHello">
+        <result name="ok" type="redirect">/login.jsp</result>
+    </action>
+
+    <!--POJO-->
+    <action name="pojo" class="com.coppco.POJO.POJO"></action>
+
+    <!--Action接口-->
+    <action name="action1" class="com.coppco.ActionInterface.ActionInterface">
+        <result name="success" type="redirect">/login.jsp</result>
+    </action>
+
+    <action name="action2" class="com.coppco.ActionThree.ActionThree">
+        <result name="success" type="redirect">/login.jsp</result>
+    </action>
+</package>
+</struts>

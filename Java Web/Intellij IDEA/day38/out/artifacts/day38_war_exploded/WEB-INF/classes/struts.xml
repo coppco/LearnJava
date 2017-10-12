@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	
+<struts>
+	<package name="day38" extends="struts-default" namespace="/">
+		<!--配置action, 如果Action由Spring管理, class是id值-->
+		<action name="customer_*" class="customerAction" method="{1}"></action>
+	</package>
+
+    
+</struts>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="teacher" class="com.coppco.Demo1.Teacher">
+        <!--<constructor-arg index="0" value="张三"/>-->
+        <!--<constructor-arg index="1" value="28" />-->
+        <constructor-arg name="name" value="李四" />
+        <constructor-arg name="age" value="28" />
+    </bean>
+
+
+    <bean id="userService" class="com.coppco.Demo1.UserServiceImp" scope="singleton" init-method="init" destroy-method="destory">
+        <!--<property name="name" value="你好吗?"></property>-->
+        <!--<property name="teacher" ref="teacher"></property>-->
+
+        <constructor-arg index="0" value=""/>
+        <constructor-arg index="1" ref=""/>
+    </bean>
+
+
+
+
+</beans>
