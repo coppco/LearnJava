@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--约束-->
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!--配置类和表的映射, name是JavaBean类名, table是表名-->
+    <class name="com.coppco.domain.User" table="sys_user">
+        <!--配置主键-->
+        <!--name是JavaBean的属性, column是表的属性-->
+        <id name="user_id" column="user_id">
+            <!--主键的生成策略: 本地策略-->
+            <generator class="native"/>
+        </id>
+        <!--其他属性-->
+        <property name="user_code" column="user_code"/>
+        <property name="user_name" column="user_name"/>
+        <property name="user_password" column="user_password"/>
+        <property name="user_state" column="user_state"/>
+    </class>
+</hibernate-mapping>

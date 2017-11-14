@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day44-struts:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="day44-struts.war">
+      <element id="artifact" artifact-name="day44-struts:war exploded" />
+    </root>
+  </artifact>
+</component>

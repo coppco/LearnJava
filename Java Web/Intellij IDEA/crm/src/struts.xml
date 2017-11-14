@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <!--设置上传文件总大小, 默认是2M-->
+    <constant name="struts.multipart.maxSize" value="20971520"/>
+
+    <package name="day38" extends="struts-default" namespace="/">
+        <!--配置全局的结果页面-->
+        <global-results>
+            <result name="login" type="redirect">/login.jsp</result>
+            <result name="error" type="redirect">/jsp/error.jsp</result>
+        </global-results>
+
+        <!--用户相关-->
+        <action name="user_*" class="userAction" method="{1}">
+            <result type="redirect" name="loginOK">/index.jsp</result>
+        </action>
+
+        <!--验证码-->
+        <action name="verification_*" class="verificationCode" method="{1}"></action>
+
+        <!--客户-->
+        <action name="customer_*" class="customerAction" method="{1}">
+            <result name="page">/jsp/customer/list.jsp</result>
+            <result name="initADD" type="redirect">/jsp/customer/add.jsp</result>
+            <result name="save" type="redirect">/customer_findByPage.action</result>
+            <result name="input">/jsp/error.jsp</result>
+            <result name="delete" type="redirect">/customer_findByPage.action</result>
+            <result name="initUpdate">/jsp/customer/edit.jsp</result>
+            <result name="update" type="redirectAction">customer_findByPage.action</result>
+
+            <!--设置文件上传允许的格式-->
+            <interceptor-ref name="defaultStack">
+                <param name="fileUpload.allowedExtensions">.jpg,.jpeg,.png,.gif,.txt</param>
+            </interceptor-ref>
+        </action>
+        
+        <!--字典-->
+        <action name="dict_*" class="dictAction" method="{1}">
+
+        </action>
+
+        <action name="linkman_*" class="linkmanAction" method="{1}">
+            <result name="page">/jsp/linkman/list.jsp</result>
+            <result name="initAdd">/jsp/linkman/add.jsp</result>
+        </action>
+    </package>
+
+</struts>
+
+
+
+
+
+
+
+
+
+
+
+
+
