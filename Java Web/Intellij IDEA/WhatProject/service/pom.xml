@@ -11,5 +11,17 @@
     <packaging>jar</packaging>
     <artifactId>service</artifactId>
 
+<dependencies>
+    <dependency>
+        <groupId>com.coppco</groupId>
+        <artifactId>domain</artifactId>
+        <version>1.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.coppco</groupId>
+        <artifactId>dao</artifactId>
+        <version>1.0</version>
+    </dependency>
+</dependencies>
 
 </project>

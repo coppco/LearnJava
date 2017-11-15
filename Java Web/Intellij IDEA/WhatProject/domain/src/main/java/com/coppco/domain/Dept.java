@@ -11,7 +11,7 @@ public class Dept implements Serializable {
     /**
      * 副部门id
      */
-    private String parent;
+    private Dept parent;
     /**
      * 状态, 1-启用  0-停用
      */
@@ -33,14 +33,13 @@ public class Dept implements Serializable {
         this.deptName = deptName;
     }
 
-    public String getParent() {
-        return parent;
-    }
-
-    public void setParent(String parent) {
+    public void setParent(Dept parent) {
         this.parent = parent;
     }
 
+    public Dept getParent() {
+        return parent;
+    }
     public Integer getState() {
         return state;
     }

@@ -1,7 +1,11 @@
 package com.coppco.action;
 
+import java.util.List;
 import java.util.Map;
 
+import com.coppco.domain.Dept;
+import com.coppco.utils.Page;
+import com.opensymphony.xwork2.ActionContext;
 import org.apache.log4j.Logger;
 import org.apache.struts2.interceptor.ApplicationAware;
 import org.apache.struts2.interceptor.RequestAware;
@@ -51,4 +55,11 @@ public class BaseAction extends ActionSupport implements RequestAware, SessionAw
 		this.application = application;
 	}
 
+	public void push(Object obj) {
+		ActionContext.getContext().getValueStack().push(obj);
+	}
+
+	public void put(String key, Object obj) {
+		ActionContext.getContext().getValueStack().setValue(key,obj);
+	}
 }

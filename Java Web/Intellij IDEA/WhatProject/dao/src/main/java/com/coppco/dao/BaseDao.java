@@ -1,48 +1,34 @@
 package com.coppco.dao;
 
-import com.coppco.utils.PageBean;
-import org.hibernate.criterion.DetachedCriteria;
-
+import java.io.Serializable;
+import java.util.Collection;
 import java.util.List;
+import com.coppco.utils.Page;
 
-public interface BaseDao<T> {
-    /**
-     * 增加
-     * @param t
-     */
-    public void add(T t);
 
-    /**
-     * 删除
-     * @param t
-     */
-    public void delete(T t);
+/**
+ * @Description:
+ * @Author:		传智播客 java学院	传智.宋江
+ * @Company:	http://java.itcast.cn
+ * @CreateDate:	2014年10月31日
+ */
+public interface BaseDao {
 
-    /**
-     * 更新
-     * @param t
-     */
-    public void update(T t);
+	//查询所有，带条件查询
+	public <T> List<T> find(String hql, Class<T> entityClass, Object[] params);
+	//获取一条记录
+	public <T> T get(Class<T> entityClass, Serializable id);
+	//分页查询，将数据封装到一个page分页工具类对象
+	public <T> Page<T> findPage(String hql, Page<T> page, Class<T> entityClass, Object[] params);
+	
+	//新增和修改保存
+	public <T> void saveOrUpdate(T entity);
+	//批量新增和修改保存
+	public <T> void saveOrUpdateAll(Collection<T> entitys);
+	
+	//单条删除，按id
+	public <T> void deleteById(Class<T> entityClass, Serializable id);
+	//批量删除
+	public <T> void delete(Class<T> entityClass, Serializable[] ids);
 
-    /**
-     * 根据主键查询
-     * @param id
-     * @return
-     */
-    public T findById(String id);
-
-    /**
-     * 查询所有
-     * @return
-     */
-    public List<T> findAll();
-
-    /**
-     * 分页查询
-     * @param currentPage
-     * @param pageSize
-     * @param detachedCriteria
-     * @return
-     */
-    public PageBean<T> findByPage(Integer currentPage, Integer pageSize, DetachedCriteria detachedCriteria);
 }

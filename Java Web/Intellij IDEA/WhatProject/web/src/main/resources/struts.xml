@@ -34,6 +34,6 @@
 			<result name="tomain">/WEB-INF/pages/${moduleName}/main.jsp</result>
 		</action>
 	</package>
-
+	<include file="struts2/struts-sysadmin.xml"></include>
 </struts>
 	
