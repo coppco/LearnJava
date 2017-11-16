@@ -87,7 +87,7 @@
 	<c:forEach items="${results }" var="dept"  varStatus="st">
 		<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
 			<td><input type="checkbox" name="id" value="${dept.id }"/></td>
-			<td>${st.count }</td>
+			<td>${st.count + pageSize * (pageNo-1) }</td>
 			<td>${dept.id }</td>
 			<td>${dept.parent.deptName }</td>
 			<td><a href="deptAction_toview?id=${dept.id }">${dept.deptName }</a></td>
