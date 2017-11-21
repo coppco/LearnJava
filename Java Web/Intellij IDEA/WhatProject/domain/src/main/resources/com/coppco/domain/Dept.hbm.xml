@@ -12,5 +12,11 @@
 
         <!-- 一对多, 多表配置 -->
         <many-to-one name="parent" column="PARENT_ID" class="Dept"></many-to-one>
+
+        <!-- 一对多 一表配置-->
+        <set name="users" inverse="true" cascade="all">
+            <key column="DEPT_ID"></key>
+            <one-to-many class="User" />
+        </set>
     </class>
 </hibernate-mapping>

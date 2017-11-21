@@ -38,7 +38,7 @@
 
 
 <div class="eXtremeTable" >
-<table id="ec_table" class="tableRegion" width="98%" >
+<table id="ec_table" class="tableRegion" width="98%">
 	<thead>
 	<tr>
 		<td class="tableHeader"><input type="checkbox" name="selid" onclick="checkAll('id',this)"></td>
@@ -51,7 +51,7 @@
 	<tbody class="tableBody" >
 	${links }
 	<c:forEach items="${results}" var="o" varStatus="status">
-	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
+	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" align="left">
 		<td><input type="checkbox" name="id" value="${o.id}"/></td>
 		<td>${status.index+1}</td>
 		<td>${o.id}</td>

@@ -1,6 +1,8 @@
 package com.coppco.domain;
 
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Dept implements Serializable {
     private String id;
@@ -9,13 +11,18 @@ public class Dept implements Serializable {
      */
     private String deptName;
     /**
-     * 副部门id
+     * 父部门id
      */
     private Dept parent;
     /**
      * 状态, 1-启用  0-停用
      */
     private Integer state;
+
+    /**
+     * 一对多 属性Set集合, 并且初始化
+     */
+    private Set<User> users = new HashSet<User>();
 
     public String getId() {
         return id;
@@ -33,18 +40,27 @@ public class Dept implements Serializable {
         this.deptName = deptName;
     }
 
+    public Dept getParent() {
+        return parent;
+    }
+
     public void setParent(Dept parent) {
         this.parent = parent;
     }
 
-    public Dept getParent() {
-        return parent;
-    }
     public Integer getState() {
         return state;
     }
 
     public void setState(Integer state) {
         this.state = state;
+    }
+
+    public Set<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<User> users) {
+        this.users = users;
     }
 }

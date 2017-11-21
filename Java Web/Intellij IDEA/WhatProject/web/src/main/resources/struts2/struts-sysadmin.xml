@@ -11,8 +11,30 @@
 	<package name="sysadmin" namespace="/sysadmin" extends="struts-default">
 		<action name="deptAction_*" method="{1}" class="deptAction">
 			<result name="list">/WEB-INF/pages/sysadmin/dept/jDeptList.jsp</result>
+			<result name="toview">/WEB-INF/pages/sysadmin/dept/jDeptView.jsp</result>
+			<result name="tocreate">/WEB-INF/pages/sysadmin/dept/jDeptCreate.jsp</result>
+			<!--重定向-->
+			<result name="alist" type="redirectAction">deptAction_list</result>
+			<result name="toupdate">/WEB-INF/pages/sysadmin/dept/jDeptUpdate.jsp</result>
+		</action>
+
+		<action name="userAction_*" method="{1}" class="userAction">
+			<result name="list">/WEB-INF/pages/sysadmin/user/jUserList.jsp</result>
+			<result name="toview">/WEB-INF/pages/sysadmin/user/jUserView.jsp</result>
+			<result name="tocreate">/WEB-INF/pages/sysadmin/user/jUserCreate.jsp</result>
+			<!--重定向-->
+			<result name="alist" type="redirectAction">userAction_list</result>
+			<result name="toupdate">/WEB-INF/pages/sysadmin/user/jUserUpdate.jsp</result>
+		</action>
+
+		<action name="roleAction_*" method="{1}" class="roleAction">
+			<result name="list">/WEB-INF/pages/sysadmin/role/jRoleList.jsp</result>
+			<result name="toview">/WEB-INF/pages/sysadmin/role/jRoleView.jsp</result>
+			<result name="tocreate">/WEB-INF/pages/sysadmin/role/jRoleCreate.jsp</result>
+			<!--重定向-->
+			<result name="alist" type="redirectAction">roleAction_list</result>
+			<result name="toupdate">/WEB-INF/pages/sysadmin/role/jRoleUpdate.jsp</result>
 		</action>
 	</package>
-
 </struts>
 	

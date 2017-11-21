@@ -1,10 +1,9 @@
 package com.coppco.action.sysadmin;
 
 import com.coppco.action.BaseAction;
-import com.coppco.domain.Dept;
-import com.coppco.service.DeptService;
+import com.coppco.domain.Role;
+import com.coppco.service.RoleService;
 import com.coppco.utils.Page;
-import com.coppco.utils.UtilFuns;
 import com.opensymphony.xwork2.ModelDriven;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -13,15 +12,15 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * 部门管理的Action
+ * 用户的Action
  * @author Administrator
  *
  */
-@Controller(value = "deptAction")
+@Controller(value = "roleAction")
 @Scope(value = "prototype")
-public class DeptAction extends BaseAction implements ModelDriven<Dept> {
-	private Dept model = new Dept();
-	public Dept getModel() {
+public class RoleAction extends BaseAction implements ModelDriven<Role> {
+	private Role model = new Role ();
+	public Role getModel() {
 		return model;
 	}
 	
@@ -33,19 +32,20 @@ public class DeptAction extends BaseAction implements ModelDriven<Dept> {
 	public void setPage(Page page) {
 		this.page = page;
 	}
-	
-	@Resource(name = "deptService")
-	private DeptService deptService;
+
+	@Resource(name = "roleService")
+	private RoleService roleService;
+
 
 	
 	/**
 	 * 分页查询
 	 */
 	public String list() throws Exception {
-		deptService.findPage("from Dept", page, Dept.class, null);
+		roleService.findPage("from Role", page, Role.class, null);
 		
 		//设置分页的url地址
-		page.setUrl("deptAction_list");
+		page.setUrl("roleAction_list");
 		
 		//将page对象压入栈顶
 		super.push(page);
@@ -61,10 +61,10 @@ public class DeptAction extends BaseAction implements ModelDriven<Dept> {
 	 */
 	public String toview() throws Exception {
 		//1.调用业务方法，根据id,得到对象
-		Dept dept = deptService.get(Dept.class, model.getId());
+		Role role = roleService.get(Role.class, model.getId());
 		
 		//放入栈顶
-		super.push(dept);
+		super.push(role);
 		
 		//3.跳页面
 		return "toview";
@@ -76,25 +76,17 @@ public class DeptAction extends BaseAction implements ModelDriven<Dept> {
 	public String tocreate() throws Exception {
 
 		//调用业务方法
-		List<Dept> deptList = deptService.find("from Dept where state = 1", Dept.class, null);
+
+		List<Role> roleList = roleService.find("from Role", Role.class, null);
 		//将查询的结果放入值栈中 ,它放在context区域中
-		super.put("deptList", deptList);
-		//跳页面
+		super.put("roleList", roleList);
 
 		return "tocreate";
 	}
-	
-	/**
-	 * 保存
-	 *     <s:select name="parent.id"
-	 *     <input type="text" name="deptName" value=""/>
-	 * model对象能接收
-	 *      parent 
-	 *           id
-	 *      deptName
-	 */
+
 	public String insert() throws Exception {
-		deptService.saveOrUpdate(model);
+
+		roleService.saveOrUpdate(model);
 		//跳页面
 		return "alist";
 	}
@@ -105,18 +97,10 @@ public class DeptAction extends BaseAction implements ModelDriven<Dept> {
 	 */
 	public String toupdate() throws Exception {
 		//1.根据id,得到一个对象
-		Dept obj = deptService.get(Dept.class, model.getId());
+		Role obj = roleService.get(Role.class, model.getId());
 		
 		//2.将对象放入值栈中
 		super.push(obj);
-		
-		//3.查询父部门
-		List<Dept> deptList = deptService.find("from Dept where state=1", Dept.class, null);
-
-		deptList.remove(obj);
-
-		//4.将查询的结果放入值栈中 ,它放在context区域中
-		super.put("deptList", deptList);
 		
 		//5.跳页面
 		return "toupdate";
@@ -127,25 +111,14 @@ public class DeptAction extends BaseAction implements ModelDriven<Dept> {
 	 */
 	public String update() throws Exception {
 		//调用业务
-		Dept obj = deptService.get(Dept.class, model.getId());//根据id,得到一个数据库中保存的对象
+		Role obj = roleService.get(Role.class, model.getId());//根据id,得到一个数据库中保存的对象
 		
 		//2.设置修改的属性
-		obj.setParent(model.getParent());
-		obj.setDeptName(model.getDeptName());
+		obj.setName(model.getName());
+		obj.setRemark(model.getRemark());
 
-		//1.调用业务方法，实现保存
-		if (obj.getParent().getId() == null || obj.getParent().getId().length() == 0) {
-			obj.setParent(null);
-		}
-		if(UtilFuns.isEmpty(obj.getId())){
-			//新增
-			obj.setState(1);//1启用  0停用  默认为启用
-		} else  {
-			if (obj.getId().equals(obj.getParent().getId())) {
-				obj.setParent(null);
-			}
-		}
-		deptService.saveOrUpdate(obj);
+
+		roleService.saveOrUpdate(obj);
 		return "alist";
 	}
 
@@ -156,7 +129,7 @@ public class DeptAction extends BaseAction implements ModelDriven<Dept> {
 	 */
 	public String delete() throws Exception {
 		String [] ids = model.getId().split(", ");
-		deptService.delete(Dept.class, ids);
+		roleService.delete(Role.class, ids);
 		return "alist";
 	}
 }

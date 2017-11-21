@@ -77,6 +77,7 @@
 		<td class="tableHeader"><input type="checkbox" name="selid" onclick="checkAll('id',this)"></td>
 		<td class="tableHeader">序号</td>
 		<td class="tableHeader">编号</td>
+		<td class="tableHeader">是否有效</td>
 		<td class="tableHeader">上级</td>
 		<td class="tableHeader">名称</td>
 	</tr>
@@ -85,10 +86,18 @@
     ${links }
 	
 	<c:forEach items="${results }" var="dept"  varStatus="st">
-		<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
+		<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" align="left">
 			<td><input type="checkbox" name="id" value="${dept.id }"/></td>
 			<td>${st.count + pageSize * (pageNo-1) }</td>
 			<td>${dept.id }</td>
+			<c:choose>
+				<c:when test="${dept.state == 0}">
+					<td>无效</td>
+				</c:when>
+				<c:otherwise>
+					<td>有效</td>
+				</c:otherwise>
+			</c:choose>
 			<td>${dept.parent.deptName }</td>
 			<td><a href="deptAction_toview?id=${dept.id }">${dept.deptName }</a></td>
 		</tr>

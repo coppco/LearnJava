@@ -60,6 +60,6 @@ public class BaseAction extends ActionSupport implements RequestAware, SessionAw
 	}
 
 	public void put(String key, Object obj) {
-		ActionContext.getContext().getValueStack().setValue(key,obj);
+		ActionContext.getContext().put(key, obj);
 	}
 }

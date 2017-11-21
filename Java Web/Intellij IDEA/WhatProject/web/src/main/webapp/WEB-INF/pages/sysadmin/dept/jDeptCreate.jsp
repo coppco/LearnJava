@@ -33,6 +33,14 @@
 	        <tr>
 	            <td class="columnTitle">上级部门：</td>
 	            <td class="tableContent">
+					<%--
+						name: select的name值
+						list: 绑定的集合
+						headerKey: 请选择的option的value
+						headerValue: 请选择的文本
+						listKey: 其他option里面的value值
+						listValue: 其他option里面的文本
+					--%>
 	            	<s:select name="parent.id" list="#deptList" headerKey="" headerValue="--请选择--" listKey="id" listValue="deptName"></s:select>
 	            </td>
 	        </tr>		

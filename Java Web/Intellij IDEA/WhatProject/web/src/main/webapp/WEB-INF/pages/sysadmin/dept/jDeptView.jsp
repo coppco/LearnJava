@@ -32,7 +32,8 @@
 	        <tr>
 	            <td class="columnTitle">上级部门：</td>
 	            <td class="tableContent">
-	            	${parent.deptName }
+	            	<%--${parent.deptName }--%>
+				<a href="deptAction_toview?id=${parent.id }">${parent.deptName }</a>
 	            </td>
 	        </tr>		
 	        <tr>

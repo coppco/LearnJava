@@ -84,11 +84,18 @@
 ${links}
 	
 	<c:forEach items="${results}" var="o" varStatus="status">
-	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
+	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" align="left">
 		<td><input type="checkbox" name="id" value="${o.id}"/></td>
-		<td>${status.index+1}</td>
+		<td>${status.count + pageSize * (pageNo-1) }</td>
 		<td><a href="userAction_toview?id=${o.id}">${o.userName}</a></td>
-		<td>${o.state }</td>
+		<c:choose>
+			<c:when test="${o.state == 0}">
+				<td>无效</td>
+			</c:when>
+			<c:otherwise>
+				<td>有效</td>
+			</c:otherwise>
+		</c:choose>
 	</tr>
 	</c:forEach>
 	
