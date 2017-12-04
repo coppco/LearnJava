@@ -54,6 +54,8 @@ public class UserInfo extends BaseEntity {
      */
     private String orderNo;
 
+
+
     public String getId() {
         return id;
     }

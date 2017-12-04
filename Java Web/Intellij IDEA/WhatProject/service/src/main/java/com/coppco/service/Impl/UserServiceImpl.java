@@ -3,7 +3,9 @@ package com.coppco.service.Impl;
 import com.coppco.dao.BaseDao;
 import com.coppco.domain.User;
 import com.coppco.service.UserService;
+import com.coppco.utils.Encrypt;
 import com.coppco.utils.Page;
+import com.coppco.utils.SysConstant;
 import com.coppco.utils.UtilFuns;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -17,7 +19,7 @@ import java.util.UUID;
 
 @Service(value = "userService")
 @Scope(value = "prototype")
-@Transactional//事务
+@Transactional
 public class UserServiceImpl implements UserService {
 
 	@Resource(name = "baseDao")
@@ -42,8 +44,11 @@ public class UserServiceImpl implements UserService {
 			String id = UUID.randomUUID().toString();
 			entity.setId(id);
 			entity.getUserInfo().setId(id);
+			entity.setPassword(Encrypt.md5(SysConstant.DEFAULT_PASS, entity.getUserName()));
+			baseDao.save(entity);
+		} else {
+			baseDao.saveOrUpdate(entity);
 		}
-		baseDao.saveOrUpdate(entity);
 	}
 
 	public void saveOrUpdateAll(Collection<User> entitys) {

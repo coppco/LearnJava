@@ -23,6 +23,9 @@ public interface BaseDao {
 	
 	//新增和修改保存
 	public <T> void saveOrUpdate(T entity);
+
+	public <T> void save(T entity);
+
 	//批量新增和修改保存
 	public <T> void saveOrUpdateAll(Collection<T> entitys);
 	

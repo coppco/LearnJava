@@ -3,13 +3,14 @@
          xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
 
   <!--spring配置文件的加载的监听器-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:applicationContext.xml</param-value>
   </context-param>
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
+
   <!--2.懒加载   OpenSessionInviewFilter   noSession or session is closed-->
   <filter>
     <filter-name>openSessionInViewFilter</filter-name>
@@ -31,7 +32,7 @@
 
   </filter-mapping>
 
-  <!-- Shiro Security filter  filter-name这个名字的值将来还会在spring中用到
+  <!-- Shiro Security filter  filter-name这个名字的值将来还会在spring中用到 一定要放在struts2过滤器前-->
   <filter>
     <filter-name>shiroFilter</filter-name>
     <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
@@ -44,11 +45,11 @@
     <filter-name>shiroFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-  -->
 
 
 
-  <!--3.struts2核心控制器-->
+
+  <!--3.struts2核心过滤器-->
   <filter>
     <filter-name>struts2</filter-name>
     <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>

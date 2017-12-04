@@ -41,7 +41,7 @@
         <!--其他配置-->
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.show_sql">false</prop>
+                <prop key="hibernate.show_sql">true</prop>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
                 <prop key="hibernate.format_sql">true</prop>
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
@@ -55,6 +55,7 @@
                 <value>com/coppco/domain/User.hbm.xml</value>
                 <value>com/coppco/domain/UserInfo.hbm.xml</value>
                 <value>com/coppco/domain/Role.hbm.xml</value>
+                <value>com/coppco/domain/Module.hbm.xml</value>
             </list>
         </property>
     </bean>
@@ -77,7 +78,6 @@
             <tx:method name="insert*" propagation="REQUIRED"/>
             <tx:method name="update*" propagation="REQUIRED"/>
             <tx:method name="delete*" propagation="REQUIRED"/>
-
             <tx:method name="get*" read-only="true"/>
             <tx:method name="*" propagation="REQUIRED"/>
         </tx:attributes>
@@ -94,6 +94,8 @@
 
     <!--组装其它 配置文件-->
     <import resource="classpath*:applicationContext-action.xml"></import>
+    <import resource="classpath*:applicationContext-shiro.xml"></import>
+    <import resource="classpath*:applicationContext-mail.xml"/>
     <!--
     <import resource="classpath:spring/applicationContext-dao.xml"></import>
     <import resource="classpath:spring/applicationContext-service.xml"></import>

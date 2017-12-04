@@ -32,7 +32,11 @@
             <artifactId>service</artifactId>
             <version>1.0</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>com.coppco</groupId>
+            <artifactId>exception</artifactId>
+            <version>1.0</version>
+        </dependency></dependencies>
     <build>
         <finalName>web</finalName>
     </build>

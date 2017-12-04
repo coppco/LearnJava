@@ -17,7 +17,7 @@ import java.util.List;
 
 @Service(value = "deptService")
 @Scope(value = "prototype")
-@Transactional//事务
+@Transactional
 public class DeptServiceImpl implements DeptService {
 
 	@Resource(name = "baseDao")

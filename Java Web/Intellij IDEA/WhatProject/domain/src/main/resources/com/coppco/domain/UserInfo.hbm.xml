@@ -7,26 +7,6 @@
         <id name="id" column="USER_INFO_ID">
             <generator class="assigned"/>
         </id>
-        <!--
-          `USER_INFO_ID` varchar(40) NOT NULL,
-  `NAME` varchar(20) DEFAULT NULL,
-  `MANAGER_ID` varchar(40) DEFAULT NULL,
-  `JOIN_DATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `SALARY` decimal(8,2) DEFAULT NULL,
-  `BIRTHDAY` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `GENDER` char(1) DEFAULT NULL,
-  `STATION` varchar(20) DEFAULT NULL,
-  `TELEPHONE` varchar(100) DEFAULT NULL,
-  `DEGREE` int(11) DEFAULT NULL COMMENT '0-超级管理员\n            1-跨部门跨人员\n            2-管理所有下属部门和人员\n            3-管理本部门\n            4-普通员工\n            \n            \n            0作为内部控制只对sysdebug，用户不能进行添加',
-  `REMARK` varchar(600) DEFAULT NULL,
-  `ORDER_NO` int(11) DEFAULT NULL,
-  `CREATE_BY` varchar(40) DEFAULT NULL COMMENT '登录人编号',
-  `CREATE_DEPT` varchar(40) DEFAULT NULL COMMENT '登录人所属部门编号',
-  `CREATE_TIME` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `UPDATE_BY` varchar(40) DEFAULT NULL,
-  `UPDATE_TIME` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-          -->
-
         <property name="name" column="NAME"/>
         <property name="joinDate" column="JOIN_DATE"/>
         <property name="salary" column="SALARY"/>
@@ -42,7 +22,6 @@
         <property name="createTime" column="CREATE_TIME"/>
         <property name="updateBy" column="UPDATE_BY"/>
         <property name="updateTime" column="UPDATE_TIME"/>
-
         <!-- 配置 多对一中的多表 -->
         <many-to-one name="manager" class="User" column="MANAGER_ID"></many-to-one>
     </class>

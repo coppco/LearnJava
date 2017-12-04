@@ -2,8 +2,10 @@ package com.coppco.action.sysadmin;
 
 import com.coppco.action.BaseAction;
 import com.coppco.domain.Dept;
+import com.coppco.domain.Role;
 import com.coppco.domain.User;
 import com.coppco.service.DeptService;
+import com.coppco.service.RoleService;
 import com.coppco.service.UserService;
 import com.coppco.utils.Page;
 import com.opensymphony.xwork2.ModelDriven;
@@ -12,6 +14,7 @@ import org.springframework.stereotype.Controller;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Set;
 
 /**
  * 用户的Action
@@ -40,6 +43,9 @@ public class UserAction extends BaseAction implements ModelDriven<User> {
 
 	@Resource(name = "deptService")
 	private DeptService deptService;
+
+	@Resource(name = "roleService")
+	private RoleService roleService;
 
 	
 	/**
@@ -144,5 +150,33 @@ public class UserAction extends BaseAction implements ModelDriven<User> {
 		String [] ids = model.getId().split(", ");
 		userService.delete(User.class, ids);
 		return "alist";
+	}
+
+
+	/**
+	 * 角色管理
+	 * @return
+	 * @throws Exception
+	 */
+	public String torole() throws Exception {
+		User user = userService.get(User.class, model.getId());
+
+		super.push(user);
+
+		List<Role> roleList = roleService.find("from Role", Role.class, null);
+
+		super.put("roleList", roleList);
+
+		//当前用户的角色
+		Set<Role> roles = user.getRoles();
+
+		StringBuilder sb = new StringBuilder();
+		for (Role role: roles) {
+			sb.append(role.getId()).append(",");
+		}
+
+		super.put("roleStr", sb.toString());
+
+		return "torole";
 	}
 }

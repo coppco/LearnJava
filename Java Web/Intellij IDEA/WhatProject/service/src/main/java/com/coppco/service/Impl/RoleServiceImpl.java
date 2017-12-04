@@ -16,7 +16,7 @@ import java.util.List;
 
 @Service(value = "roleService")
 @Scope(value = "prototype")
-@Transactional//事务
+@Transactional
 public class RoleServiceImpl implements RoleService {
 
 	@Resource(name = "baseDao")

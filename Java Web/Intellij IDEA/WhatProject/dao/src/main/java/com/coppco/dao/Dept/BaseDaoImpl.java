@@ -74,6 +74,10 @@ public class BaseDaoImpl implements BaseDao {
 	}
 	
 	//新增和修改，hibernate根据id是否为null自动判断
+	public <T> void save(T entity) {
+		this.getSession().save(entity);
+	}
+
 	public <T> void saveOrUpdate(T entity) {
 		this.getSession().saveOrUpdate(entity);
 	}

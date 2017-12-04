@@ -29,6 +29,10 @@ public class Role extends BaseEntity {
      * 角色和用户关系: 多对多
      */
     private Set<User> users = new HashSet<User>(0);
+    /**
+     * 角色和模块关系: 多对多
+     */
+    private Set<Module> modules = new HashSet<Module>(0);
 
     public String getId() {
         return id;
@@ -68,5 +72,13 @@ public class Role extends BaseEntity {
 
     public void setUsers(Set<User> users) {
         this.users = users;
+    }
+
+    public Set<Module> getModules() {
+        return modules;
+    }
+
+    public void setModules(Set<Module> modules) {
+        this.modules = modules;
     }
 }
