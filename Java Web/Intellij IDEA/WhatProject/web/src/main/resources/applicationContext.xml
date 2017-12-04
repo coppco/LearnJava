@@ -56,6 +56,11 @@
                 <value>com/coppco/domain/UserInfo.hbm.xml</value>
                 <value>com/coppco/domain/Role.hbm.xml</value>
                 <value>com/coppco/domain/Module.hbm.xml</value>
+
+                <value>com/coppco/domain/Contract.hbm.xml</value>
+                <value>com/coppco/domain/ContractProduct.hbm.xml</value>
+                <value>com/coppco/domain/ExtCproduct.hbm.xml</value>
+                <value>com/coppco/domain/Factory.hbm.xml</value>
             </list>
         </property>
     </bean>

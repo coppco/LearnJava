@@ -1,6 +1,7 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
 <%@ include file="../../baselist.jsp"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title></title>
@@ -62,20 +63,21 @@
 	</tr>
 	</thead>
 	<tbody class="tableBody" >
-	${links }
-	<c:forEach items="${results}" var="o" varStatus="status">
+	
+	${page.links }
+	<c:forEach items="${page.results}" var="o" varStatus="status">
 	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
 		<td><input type="checkbox" name="id" value="${o.id}"/></td>
 		<td>${status.index+1}</td>
 		<td>${o.customName}</td>
 		<td><a href="contractAction_toview?id=${o.id}">${o.contractNo}</a></td>
 		<td>
-		    ${o.contractProducts.size() }
-		    /
+		    <%--${o.contractProducts.size() }--%>
+
 		    <c:set var="extNo" value="0"></c:set>
 		    <c:forEach items="${o.contractProducts }"  var="cp" >
-		        <c:if test="${cp.extCproducts.size()!=0 }">
-		            <c:set var="extNo" value="${extNo+cp.extCproducts.size() }"></c:set>
+		        <c:if test="${fn:length(cp.extCproducts) > 0}">
+		            <c:set var="extNo" value="${extNo+fn:length(cp.extCproducts) }"></c:set>
 		        </c:if>
 		    	
 		    </c:forEach>

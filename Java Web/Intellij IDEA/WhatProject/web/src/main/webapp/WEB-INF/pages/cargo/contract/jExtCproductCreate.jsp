@@ -46,7 +46,7 @@
 	            <td class="tableContent">
 	            	<s:select name="factory.id" list="factoryList" 
 	            				onchange="setFactoryName(this.options[this.selectedIndex].text);"
-	            				listKey="id" listValue="factoryName" 
+	            				listKey="id" listValue="factoryName" theme="simple"
 	            				headerKey="" headerValue="--请选择--"/>
 	            	<input type="hidden" id="factoryName" name="factoryName" value=""/>
 	            </td>
@@ -110,8 +110,8 @@
 	</tr>
 	</thead>
 	<tbody class="tableBody" >
-	${links }
-	<c:forEach items="${results}" var="o" varStatus="status">
+	
+	<c:forEach items="${dataList}" var="o" varStatus="status">
 	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
 		<td><input type="checkbox" name="id" value="${o.id}"/></td>
 		<td>${status.index+1}</td>

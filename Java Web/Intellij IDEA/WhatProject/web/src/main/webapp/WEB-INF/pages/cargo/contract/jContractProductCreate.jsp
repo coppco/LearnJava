@@ -42,9 +42,8 @@
 	            <td class="tableContent">
 	            	 <s:select name="factory.id" list="factoryList" 
 	            				onchange="setFactoryName(this.options[this.selectedIndex].text);"
-	            				listKey="id" listValue="factoryName" 
+	            				listKey="id" listValue="factoryName" theme="simple" value=""
 	            				headerKey="" headerValue="--请选择--"/>
-	            				
 	            	<input type="hidden" id="factoryName" name="factoryName" value=""/>
 	            </td>
 	            <td class="columnTitle">货号：</td>
@@ -109,8 +108,8 @@
 	</tr>
 	</thead>
 	<tbody class="tableBody" >
-	${links }
- 	<c:forEach items="${results}" var="o" varStatus="status">
+	
+ 	<c:forEach items="${dataList}" var="o" varStatus="status">
 	<tr class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
 		<td><input type="checkbox" name="id" value="${o.id}"/></td>
 		<td>${status.index+1}</td>
@@ -128,22 +127,6 @@
 			<a href="extCproductAction_tocreate.action?contractProduct.contract.id=${o.contract.id}&contractProduct.id=${o.id}">[附件]</a>
 		</td>
 	</tr>
-	
-	<c:forEach items="${o.extCproducts}" var="ext" varStatus="status">
-	<tr height="40" class="odd" onmouseover="this.className='highlight'" onmouseout="this.className='odd'" >
-	    <td>&nbsp;</td>
-		<td align="right"><font color="blue">附件：${status.index+1}&nbsp;</font></td>
-		<td>${ext.factoryName}</td>
-		<td>${ext.productNo}</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>${ext.packingUnit}</td>
-		<td>${ext.cnumber}</td>
-		<td>${ext.price}</td>
-		<td>${ext.amount}</td>
-	</tr>
-	</c:forEach>
-	
 	</c:forEach> 
 	
 	</tbody>

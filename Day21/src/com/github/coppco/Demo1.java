@@ -1,0 +1,34 @@
+package com.github.coppco;
+
+import java.util.ArrayList;
+
+public class Demo1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//µÝ¹éÇónµÄ½×³Ë
+		
+//		int a = getValue(2);
+//		System.out.println(a);
+		
+		ArrayList<String> list = new ArrayList<>();
+		list.add("dd");
+		list= null;
+		System.out.println(list);
+		System.out.println(list.toString());
+
+	}
+
+	private static int getValue(int i) {
+		if (i <= 1) {
+			return 1;
+		} else {
+			return i * getValue(i - 1);
+		}
+	}
+
+}

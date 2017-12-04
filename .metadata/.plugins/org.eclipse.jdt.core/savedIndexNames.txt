@@ -1,0 +1,17 @@
+INDEX VERSION 1.126+D:\Learn\.metadata\.plugins\org.eclipse.jdt.core
+65601620.index
+1250576802.index
+617327541.index
+3247780671.index
+1927887669.index
+4084851154.index
+2904509772.index
+3793331950.index
+617884055.index
+2198618569.index
+3390161818.index
+1611955407.index
+3918132201.index
+4163766288.index
+3719959426.index
+1970862584.index
