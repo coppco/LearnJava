@@ -21,41 +21,41 @@ import java.util.List;
 @Transactional
 public class ExtCproductServiceImpl implements ExtCproductService {
 
-	@Resource(name = "baseDao")
-	private BaseDao baseDao;
+    @Resource(name = "baseDao")
+    private BaseDao baseDao;
 
 
-	public List<ExtCproduct> find(String hql, Class<ExtCproduct> entityClass, Object[] params) {
-		return baseDao.find(hql, entityClass, params);
-	}
+    public List<ExtCproduct> find(String hql, Class<ExtCproduct> entityClass, Object[] params) {
+        return baseDao.find(hql, entityClass, params);
+    }
 
-	public ExtCproduct get(Class<ExtCproduct> entityClass, Serializable id) {
-		return baseDao.get(entityClass, id);
-	}
+    public ExtCproduct get(Class<ExtCproduct> entityClass, Serializable id) {
+        return baseDao.get(entityClass, id);
+    }
 
-	public Page<ExtCproduct> findPage(String hql, Page<ExtCproduct> page, Class<ExtCproduct> entityClass, Object[] params) {
-		return baseDao.findPage(hql, page, entityClass, params);
-	}
+    public Page<ExtCproduct> findPage(String hql, Page<ExtCproduct> page, Class<ExtCproduct> entityClass, Object[] params) {
+        return baseDao.findPage(hql, page, entityClass, params);
+    }
 
-	public void saveOrUpdate(ExtCproduct entity) {
-		if(UtilFuns.isEmpty(entity.getId())){
-			//新增
-		}
-		baseDao.saveOrUpdate(entity);
-	}
+    public void saveOrUpdate(ExtCproduct entity) {
+        if (UtilFuns.isEmpty(entity.getId())) {
+            //新增
+        }
+        baseDao.saveOrUpdate(entity);
+    }
 
-	public void saveOrUpdateAll(Collection<ExtCproduct> entitys) {
-		baseDao.saveOrUpdateAll(entitys);
-	}
+    public void saveOrUpdateAll(Collection<ExtCproduct> entitys) {
+        baseDao.saveOrUpdateAll(entitys);
+    }
 
-	public void deleteById(Class<ExtCproduct> entityClass, Serializable id) {
-		baseDao.deleteById(entityClass, id);
-	}
+    public void deleteById(Class<ExtCproduct> entityClass, Serializable id) {
+        baseDao.deleteById(entityClass, id);
+    }
 
-	public void delete(Class<ExtCproduct> entityClass, Serializable[] ids) {
-		for (Serializable id : ids) {
-			this.deleteById(entityClass, id);
-		}
-	}
+    public void delete(Class<ExtCproduct> entityClass, Serializable[] ids) {
+        for (Serializable id : ids) {
+            this.deleteById(entityClass, id);
+        }
+    }
 
 }

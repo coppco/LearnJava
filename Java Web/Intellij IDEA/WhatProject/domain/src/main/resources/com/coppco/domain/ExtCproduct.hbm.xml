@@ -4,7 +4,7 @@
     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.coppco.domain">
 	<!-- 配置类的映射 -->
-	<class name="ExtCproduct" table="EXT_CPRODUCT_C">
+	<class name="ExtCproduct" table="EXT_CPRODUCT_C" dynamic-insert="true" dynamic-update="true">
 		<!-- 1.配置主键生成策略 -->
 		<id name="id" column="EXT_CPRODUCT_ID" type="string">
 			<generator class="uuid"/>

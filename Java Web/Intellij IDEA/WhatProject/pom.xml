@@ -30,6 +30,7 @@
         <junit.version>4.9</junit.version>
         <mysql.version>5.1.6</mysql.version>
         <oracle.version>10.2.0.4.0</oracle.version>
+        <poi.version>3.11</poi.version>
     </properties>
 
     <dependencies>
@@ -243,17 +244,17 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.11</version>
+            <version>${poi.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>3.11</version>
+            <version>${poi.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml-schemas</artifactId>
-            <version>3.11</version>
+            <version>${poi.version}</version>
         </dependency>
 
         <dependency>

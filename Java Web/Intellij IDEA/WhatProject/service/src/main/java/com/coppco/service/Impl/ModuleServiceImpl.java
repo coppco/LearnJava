@@ -19,41 +19,41 @@ import java.util.List;
 @Transactional
 public class ModuleServiceImpl implements ModuleService {
 
-	@Resource(name = "baseDao")
-	private BaseDao baseDao;
+    @Resource(name = "baseDao")
+    private BaseDao baseDao;
 
 
-	public List<Module> find(String hql, Class<Module> entityClass, Object[] params) {
-		return baseDao.find(hql, entityClass, params);
-	}
+    public List<Module> find(String hql, Class<Module> entityClass, Object[] params) {
+        return baseDao.find(hql, entityClass, params);
+    }
 
-	public Module get(Class<Module> entityClass, Serializable id) {
-		return baseDao.get(entityClass, id);
-	}
+    public Module get(Class<Module> entityClass, Serializable id) {
+        return baseDao.get(entityClass, id);
+    }
 
-	public Page<Module> findPage(String hql, Page<Module> page, Class<Module> entityClass, Object[] params) {
-		return baseDao.findPage(hql, page, entityClass, params);
-	}
+    public Page<Module> findPage(String hql, Page<Module> page, Class<Module> entityClass, Object[] params) {
+        return baseDao.findPage(hql, page, entityClass, params);
+    }
 
-	public void saveOrUpdate(Module entity) {
-		if(UtilFuns.isEmpty(entity.getId())){
-			//新增
-		}
-		baseDao.saveOrUpdate(entity);
-	}
+    public void saveOrUpdate(Module entity) {
+        if (UtilFuns.isEmpty(entity.getId())) {
+            //新增
+        }
+        baseDao.saveOrUpdate(entity);
+    }
 
-	public void saveOrUpdateAll(Collection<Module> entitys) {
-		baseDao.saveOrUpdateAll(entitys);
-	}
+    public void saveOrUpdateAll(Collection<Module> entitys) {
+        baseDao.saveOrUpdateAll(entitys);
+    }
 
-	public void deleteById(Class<Module> entityClass, Serializable id) {
-		baseDao.deleteById(entityClass, id);
-	}
+    public void deleteById(Class<Module> entityClass, Serializable id) {
+        baseDao.deleteById(entityClass, id);
+    }
 
-	public void delete(Class<Module> entityClass, Serializable[] ids) {
-		for (Serializable id : ids) {
-			this.deleteById(entityClass, id);
-		}
-	}
+    public void delete(Class<Module> entityClass, Serializable[] ids) {
+        for (Serializable id : ids) {
+            this.deleteById(entityClass, id);
+        }
+    }
 
 }

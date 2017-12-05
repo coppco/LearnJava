@@ -3,7 +3,7 @@
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.coppco.domain">
-	<class name="Factory" table="FACTORY_C">
+	<class name="Factory" table="FACTORY_C" dynamic-insert="true" dynamic-update="true">
 		<id name="id" column="FACTORY_ID" type="string">
 			<generator class="uuid"/>
 		</id>

@@ -21,41 +21,41 @@ import java.util.List;
 @Transactional
 public class FactoryServiceImpl implements FactoryService {
 
-	@Resource(name = "baseDao")
-	private BaseDao baseDao;
+    @Resource(name = "baseDao")
+    private BaseDao baseDao;
 
 
-	public List<Factory> find(String hql, Class<Factory> entityClass, Object[] params) {
-		return baseDao.find(hql, entityClass, params);
-	}
+    public List<Factory> find(String hql, Class<Factory> entityClass, Object[] params) {
+        return baseDao.find(hql, entityClass, params);
+    }
 
-	public Factory get(Class<Factory> entityClass, Serializable id) {
-		return baseDao.get(entityClass, id);
-	}
+    public Factory get(Class<Factory> entityClass, Serializable id) {
+        return baseDao.get(entityClass, id);
+    }
 
-	public Page<Factory> findPage(String hql, Page<Factory> page, Class<Factory> entityClass, Object[] params) {
-		return baseDao.findPage(hql, page, entityClass, params);
-	}
+    public Page<Factory> findPage(String hql, Page<Factory> page, Class<Factory> entityClass, Object[] params) {
+        return baseDao.findPage(hql, page, entityClass, params);
+    }
 
-	public void saveOrUpdate(Factory entity) {
-		if(UtilFuns.isEmpty(entity.getId())){
-			//新增
-		}
-		baseDao.saveOrUpdate(entity);
-	}
+    public void saveOrUpdate(Factory entity) {
+        if (UtilFuns.isEmpty(entity.getId())) {
+            //新增
+        }
+        baseDao.saveOrUpdate(entity);
+    }
 
-	public void saveOrUpdateAll(Collection<Factory> entitys) {
-		baseDao.saveOrUpdateAll(entitys);
-	}
+    public void saveOrUpdateAll(Collection<Factory> entitys) {
+        baseDao.saveOrUpdateAll(entitys);
+    }
 
-	public void deleteById(Class<Factory> entityClass, Serializable id) {
-		baseDao.deleteById(entityClass, id);
-	}
+    public void deleteById(Class<Factory> entityClass, Serializable id) {
+        baseDao.deleteById(entityClass, id);
+    }
 
-	public void delete(Class<Factory> entityClass, Serializable[] ids) {
-		for (Serializable id : ids) {
-			this.deleteById(entityClass, id);
-		}
-	}
+    public void delete(Class<Factory> entityClass, Serializable[] ids) {
+        for (Serializable id : ids) {
+            this.deleteById(entityClass, id);
+        }
+    }
 
 }

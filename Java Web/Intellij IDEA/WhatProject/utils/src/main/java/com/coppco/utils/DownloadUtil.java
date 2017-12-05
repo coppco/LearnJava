@@ -1,9 +1,13 @@
 package com.coppco.utils;
 
+import org.apache.struts2.ServletActionContext;
+import sun.misc.BASE64Encoder;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URLEncoder;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -97,15 +101,32 @@ public class DownloadUtil {
 	 * @param response HttpServletResponse	写入response
 	 * @param returnName 返回的文件名
 	 */
-	public void download(ByteArrayOutputStream byteArrayOutputStream, HttpServletResponse response, String returnName) throws IOException{
+	public void download(ByteArrayOutputStream byteArrayOutputStream, HttpServletResponse response, String returnName) throws Exception {
 		response.setContentType("application/octet-stream;charset=utf-8");
-		returnName = response.encodeURL(new String(returnName.getBytes(),"iso8859-1"));			//保存的文件名,必须和页面编码一致,否则乱码
-		response.addHeader("Content-Disposition",   "attachment;filename=" + returnName);  
+		//returnName = response.encodeURL(new String(returnName.getBytes(),"iso8859-1"));			//保存的文件名,必须和页面编码一致,否则乱码
+		returnName = encodeDownloadFilename(returnName, ServletActionContext.getRequest().getHeader("user-agent"));
+		response.addHeader("Content-Disposition",   "attachment;filename=" + returnName);
 		response.setContentLength(byteArrayOutputStream.size());
 		
 		ServletOutputStream outputstream = response.getOutputStream();	//取得输出流
 		byteArrayOutputStream.writeTo(outputstream);					//写到输出流
 		byteArrayOutputStream.close();									//关闭
 		outputstream.flush();											//刷数据
+	}
+
+	/**
+	 * 下载文件附件名编码
+	 * @param filename 文件名
+	 * @param agent 浏览器
+	 * @return 返回编码后文件名
+	 * @throws Exception
+	 */
+	public String encodeDownloadFilename(String filename, String agent) throws Exception {
+		if (agent.contains("火狐浏览器")) {
+			filename = "=?UTF-8?B?" + new BASE64Encoder().encode(filename.getBytes("utf-8")) + "?=";
+		} else {
+			filename = URLEncoder.encode(filename, "utf-8");
+		}
+		return filename;
 	}
 }
