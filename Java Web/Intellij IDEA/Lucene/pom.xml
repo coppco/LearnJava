@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.coppco</groupId>
+    <artifactId>Lucene</artifactId>
+    <version>1.0</version>
+    <properties>
+        <junit-version>4.9</junit-version>
+        <lucene-version>4.10.3</lucene-version>
+        <commons-io-version>2.6</commons-io-version>
+    </properties>
+
+
+
+    <dependencies>
+        <dependency>
+            <!--核心包-->
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>${lucene-version}</version>
+        </dependency>
+        <dependency>
+            <!--对分词索引查询解析-->
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-queryparser</artifactId>
+            <version>${lucene-version}</version>
+        </dependency>
+        <dependency>
+            <!--一般分词器，适用于英文分词-->
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>${lucene-version}</version>
+        </dependency>
+        <dependency>
+            <!--中文分词器-->
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-smartcn</artifactId>
+            <version>${lucene-version}</version>
+        </dependency>
+        <dependency>
+            <!--检索关键字高亮显示-->
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-highlighter</artifactId>
+            <version>${lucene-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io-version}</version>
+        </dependency>
+    </dependencies>
+
+
+
+</project>

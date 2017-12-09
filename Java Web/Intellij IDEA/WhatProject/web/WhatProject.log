@@ -40,3 +40,5 @@ Caused by: java.lang.IllegalArgumentException: Cannot load an ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:91)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
 	... 24 more
+2017-12-06 14:03:32,635 0      [           main] INFO         com.coppco.test.JobTest  - 任务执行了: Wed Dec 06 14:03:32 CST 2017
+2017-12-06 14:03:56,339 0      [           main] INFO         com.coppco.test.JobTest  - 任务执行了: Wed Dec 06 14:03:56 CST 2017

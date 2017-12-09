@@ -101,6 +101,7 @@
     <import resource="classpath*:applicationContext-action.xml"></import>
     <import resource="classpath*:applicationContext-shiro.xml"></import>
     <import resource="classpath*:applicationContext-mail.xml"/>
+    <import resource="classpath*:applicationContext-job.xml"/>
     <!--
     <import resource="classpath:spring/applicationContext-dao.xml"></import>
     <import resource="classpath:spring/applicationContext-service.xml"></import>
