@@ -67,7 +67,7 @@ public class IndexManagerTest {
                  * 是否索引: 要, 因为要根据名称搜索
                  * 是否存储: 都可以, 不存储document中没有
                  */
-                TextField contextField = new TextField("fileContext", fileContext, Field.Store.NO);
+                TextField contextField = new TextField("fileContext", fileContext, Field.Store.YES);
 
                 /** 大小
                  * 是否分词: 要, 数字要对比

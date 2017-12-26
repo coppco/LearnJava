@@ -6,22 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dao" />
-        <module name="domain" />
-        <module name="exception" />
-        <module name="service" />
-        <module name="utils" />
-        <module name="web" />
+        <module name="Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dao" target="1.5" />
-      <module name="domain" target="1.5" />
-      <module name="exception" target="1.5" />
-      <module name="service" target="1.5" />
-      <module name="utils" target="1.5" />
-      <module name="web" target="1.5" />
-      <module name="WhatProject" target="1.5" />
+      <module name="Mybatis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
