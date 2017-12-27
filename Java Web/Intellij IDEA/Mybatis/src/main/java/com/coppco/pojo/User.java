@@ -1,6 +1,7 @@
 package com.coppco.pojo;
 
 import java.util.Date;
+import java.util.List;
 
 public class User {
     private int id;
@@ -8,6 +9,15 @@ public class User {
     private String sex;
     private String address;
     private Date birthday;
+    private List<Orders> ordersList;
+
+    public List<Orders> getOrdersList() {
+        return ordersList;
+    }
+
+    public void setOrdersList(List<Orders> ordersList) {
+        this.ordersList = ordersList;
+    }
 
     public int getId() {
         return id;
@@ -57,6 +67,7 @@ public class User {
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
                 ", birthday=" + birthday +
+                ", ordersList=" + ordersList +
                 '}';
     }
 }

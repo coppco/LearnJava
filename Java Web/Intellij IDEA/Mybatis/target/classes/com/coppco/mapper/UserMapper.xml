@@ -10,7 +10,20 @@
      4、映射文件中返回结果类型等于接口方法的返回结果类型
  -->
 
+
 <mapper namespace="com.coppco.mapper.UserMapper">
+
+    <sql id="where_user">
+        <where>
+            <if test="username != null and username !=''">
+                and username like '%${username}%'
+            </if>
+            <if test="sex != null and sex !=''">
+                and sex=#{sex}
+            </if>
+        </where>
+    </sql>
+
     <select id="fingUserById" parameterType="integer" resultType="user">
         select * from user where id = #{id}
     </select>
@@ -21,4 +34,66 @@
     <insert id="insetUser" parameterType="user">
         insert into user (username, birthday, sex, address) values(#{username}, #{birthday}, #{sex}, #{address})
     </insert>
+
+    <select id="findUserByVo" parameterType="queryVo" resultType="user">
+        select * from user where username like '%${user.username}%' and sex=#{user.sex}
+    </select>
+
+    <select id="findUserCount" resultType="long">
+        select count(*), sex from user
+    </select>
+
+    <select id="findUserByUsernameAndSex" parameterType="user" resultType="user">
+        select * from user
+        <include refid="where_user"/>
+    </select>
+
+    <!--一对一: 手动映射-->
+    <!-- 定义一个resultMap, id: resultMap的唯一表示,  type: 查询的结果放入的指定对象中 -->
+    <resultMap id="findAllResultMap" type="orders">
+        <!--手动映射需要指定 数据库中字段和pojo中的属性名-->
+
+        <!--id标签: 指定主键的对应关系. colum: 数据库字段, property: pojo的属性-->
+        <id column="id" property="id"/>
+        <!--result标签: 指定非主键的对应关系-->
+        <result column="user_id" property="userId"/>
+        <result column="number" property="number"/>
+        <result column="createtime" property="createtime"/>
+        <result column="note" property="note"/>
+
+        <!--association: 指定单个对象的对应关系-->
+        <association property="user" javaType="user">
+            <id column="uid" property="id"/>
+            <result column="username" property="username"/>
+            <result column="birthday" property="birthday"/>
+            <result column="sex" property="sex"/>
+            <result column="address" property="address"/>
+        </association>
+    </resultMap>
+
+    <select id="findOrdersAndUsers" resultMap="findAllResultMap">
+        select a.*, b.id uid,username,birthday, sex, address  from orders a, user b where a.user_id = b.id
+    </select>
+
+    <!--一对多: 手动映射-->
+    <resultMap id="findAllUserResultMap" type="user">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="birthday" property="birthday"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+
+        <!--指定集合属性对应关系  property: 集合属性名 ofType: 集合中元素类型 -->
+        <collection property="ordersList" ofType="orders">
+            <id column="oid" property="id"/>
+            <!--result标签: 指定非主键的对应关系-->
+            <result column="user_id" property="userId"/>
+            <result column="number" property="number"/>
+            <result column="createtime" property="createtime"/>
+            <result column="note" property="note"/>
+        </collection>
+    </resultMap>
+    <select id="findUserAndOrders" resultMap="findAllUserResultMap">
+        select a.*, b.id oid ,user_id, number, createtime, note from user a, orders b where a.id = b.user_id
+    </select>
 </mapper>

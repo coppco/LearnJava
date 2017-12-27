@@ -3,6 +3,8 @@ package com.coppco.test;
 
 import com.coppco.HJLog.HJLog;
 import com.coppco.mapper.UserMapper;
+import com.coppco.pojo.Orders;
+import com.coppco.pojo.QueryVo;
 import com.coppco.pojo.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -114,5 +116,64 @@ public class MyTest {
         mapper.insetUser(user);
 
         sqlSession.commit();
+    }
+
+    @Test
+    public void testMapperVo() throws Exception {
+        SqlSession sqlSession = factory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        QueryVo vo = new QueryVo();
+        User user = new User();
+        user.setUsername("小");
+        user.setSex("1");
+        vo.setUser(user);
+        List<User> userByVo = mapper.findUserByVo(vo);
+
+        HJLog.logger.info(userByVo);
+    }
+
+    @Test
+    public void testMapperByCount() throws Exception {
+        SqlSession sqlSession = factory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+        Long userCount = mapper.findUserCount();
+
+        HJLog.logger.info(userCount);
+    }
+
+    @Test
+    public void testMapperByUsernameAndSex() throws Exception {
+        SqlSession sqlSession = factory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+
+        User user = new User();
+        user.setUsername("小");
+        user.setSex("1");
+
+        List<User> userByVo = mapper.findUserByUsernameAndSex(user);
+
+        HJLog.logger.info(userByVo);
+    }
+
+    @Test
+    public void testMapperFindOrdersAndUsers() throws Exception{
+        SqlSession sqlSession = factory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+        List<Orders> ordersAndUsers = mapper.findOrdersAndUsers();
+
+
+        HJLog.logger.debug(ordersAndUsers);
+    }
+
+    @Test
+    public void testMapperFindUsersAndOrders() throws Exception{
+        SqlSession sqlSession = factory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+        List<User> list = mapper.findUserAndOrders();
+        HJLog.logger.debug(list);
     }
 }
