@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSMCRM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SSM-CRM.war">
+      <element id="artifact" artifact-name="SSMCRM:war exploded" />
+    </root>
+  </artifact>
+</component>
