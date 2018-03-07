@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/taotao-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-web" />
   </component>
   <component name="MavenProjectsManager">
@@ -12,8 +12,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/taotao-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/taotao-web/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaomanagerinterface/pom.xml" />
       </set>
     </option>
   </component>
