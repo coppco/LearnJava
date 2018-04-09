@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="taotao-manager-service:war exploded">
-    <output-path>$PROJECT_DIR$/taotao-manager-service/target/taotao-manager-service</output-path>
+    <output-path>$PROJECT_DIR$/taotao-manager-service/target/taotao-manager</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -50,6 +50,7 @@
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.11.2" />
           <element id="archive" name="taotao-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="taotao-common" />
           </element>
@@ -68,7 +69,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/taotao-manager-service/target/taotao-manager-service/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/taotao-manager-service/target/taotao-manager/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="taotao-manager-service/web/Web" />
     </root>
