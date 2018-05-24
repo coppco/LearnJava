@@ -1,10 +1,10 @@
 package com.coppco.content.service.impl;
 
+import com.coppco.common.jedis.JedisClient;
 import com.coppco.common.pojo.EasyUIDataGridResult;
 import com.coppco.common.pojo.TaotaoResult;
 import com.coppco.common.utils.JsonUtils;
 import com.coppco.content.service.ContentService;
-import com.coppco.jedis.JedisClient;
 import com.coppco.mapper.TbContentMapper;
 import com.coppco.pojo.TbContent;
 import com.coppco.pojo.TbContentExample;
@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -25,7 +26,7 @@ public class ContentServiceImpl implements ContentService{
     @Autowired
     private TbContentMapper contentMapper;
 
-    @Autowired
+    @Resource(name = "jedisClientCluster")
     private JedisClient jedisClient;
 
     @Value("${REDIS_INDEX_CONTENT_KEY}")

@@ -32,7 +32,7 @@
     <!--注册中心地址-->
     <dubbo:registry protocol="zookeeper" address="192.168.1.184:2181"/>
     <!--引用dubbo服务-->
-    <dubbo:reference interface="com.coppco.content.service.ContentService" id="contentServiceImpl" timeout="1200000"/>
+    <dubbo:reference interface="com.coppco.content.service.ContentService" id="contentServiceImpl" timeout="20000"/>
     <!--<dubbo:reference interface="com.coppco.service.ItemCatService" id="itemCatServiceImpl" timeout="1200000"/>-->
     <!--注解扫描-->
     <context:component-scan base-package="com.coppco.portal.controller"/>

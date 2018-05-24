@@ -1,0 +1,1298 @@
+2018-04-25 19:59:09,707 4      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:11,331 1628   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:12,878 3175   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:14,942 5239   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:16,651 6948   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:18,741 9038   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:20,080 10377  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:22,071 12368  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 19:59:23,607 13904  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:28,139 3618436 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:30,175 3620472 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:31,563 3621860 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:33,625 3623922 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:35,602 3625899 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:37,642 3627939 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:39,592 3629889 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:40,992 3631289 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 20:59:42,142 3632439 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:05,905 10916202 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:07,294 10917591 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:09,302 10919599 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:11,110 10921407 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:12,546 10922843 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:14,629 10924926 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:16,360 10926657 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:18,286 10928583 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:19,907 10930204 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:21,384 10931681 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-25 23:01:23,184 10933481 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:09,945 14580242 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:11,663 14581960 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:12,942 14583239 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:14,565 14584862 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:16,398 14586695 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:18,135 14588432 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:19,591 14589888 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:21,664 14591961 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:23,449 14593746 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:25,185 14595482 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:26,856 14597153 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 00:02:28,025 14598322 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:02:55,078 18225375 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:02:57,086 18227383 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:02:58,269 18228566 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:00,273 18230570 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:02,082 18232379 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:03,521 18233818 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:05,291 18235588 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:07,022 18237319 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:08,889 18239186 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:10,379 18240676 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 01:03:12,017 18242314 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:10,207 21900504 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:12,306 21902603 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:13,573 21903870 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:15,104 21905401 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:17,013 21907310 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:18,172 21908469 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:19,623 21909920 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:21,537 21911834 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:22,943 21913240 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 02:04:24,633 21914930 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:04:51,762 25542059 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:04:53,353 25543650 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:04:55,361 25545658 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:04:57,307 25547604 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:04:59,411 25549708 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:05:01,423 25551720 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:05:02,607 25552904 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:05:03,984 25554281 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:05:05,923 25556220 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:05:07,633 25557930 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 03:05:09,742 25560039 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:37,334 29187631 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:39,045 29189342 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:40,444 29190741 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:42,204 29192501 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:43,664 29193961 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:45,473 29195770 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:47,491 29197788 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:49,333 29199630 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:51,209 29201506 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:53,130 29203427 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 04:05:55,174 29205471 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:05:59,792 32810089 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:01,430 32811727 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:02,576 32812873 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:04,184 32814481 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:05,813 32816110 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:07,407 32817704 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:09,063 32819360 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:10,313 32820610 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:11,497 32821794 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:12,883 32823180 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:14,413 32824710 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:15,558 32825855 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 05:06:16,945 32827242 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 06:07:04,426 36474723 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 07:07:52,806 40123103 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 07:07:54,837 40125134 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 08:08:42,588 43772885 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-26 08:08:43,879 43774176 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-27 09:22:54,029 0      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> student  [in template "student.ftl" at line 7, column 6]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${student.id}  [in template "student.ftl" at line 7, column 4]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:77)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-27 09:23:22,370 0      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> student  [in template "student.ftl" at line 7, column 6]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${student.id}  [in template "student.ftl" at line 7, column 4]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:77)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-27 09:24:09,829 0      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> student  [in template "student.ftl" at line 7, column 6]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${student.id}  [in template "student.ftl" at line 7, column 4]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:77)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-27 09:24:32,116 0      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> student  [in template "student.ftl" at line 7, column 14]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${student.id}  [in template "student.ftl" at line 7, column 12]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:77)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-27 09:26:11,856 1      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> stuList  [in template "student.ftl" at line 20, column 24]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list stuList as stu  [in template "student.ftl" at line 20, column 17]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.Expression.assertNonNull(Expression.java:194)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:74)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-28 08:43:39,907 0      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> date  [in template "student.ftl" at line 36, column 19]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${date?string("yyyy-MM-dd HH:mm:ss")}  [in template "student.ftl" at line 36, column 17]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:77)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.BuiltInsForMultipleTypes$stringBI._eval(BuiltInsForMultipleTypes.java:617)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-28 08:44:22,989 1      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> date  [in template "student.ftl" at line 36, column 19]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${date?string("yyyy-MM-dd HH:mm:ss")}  [in template "student.ftl" at line 36, column 17]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:77)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.BuiltInsForMultipleTypes$stringBI._eval(BuiltInsForMultipleTypes.java:617)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-28 08:44:53,178 1      [           main] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> date  [in template "student.ftl" at line 37, column 19]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${date?date}  [in template "student.ftl" at line 37, column 17]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.BuiltInsForMultipleTypes$dateBI._eval(BuiltInsForMultipleTypes.java:226)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.freemarker.TestFreeMarker.testStudent(TestFreeMarker.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-04-28 09:26:04,766 0      [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27379&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878764421 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27379&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878764421 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27379&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878764421 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27379&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878764421 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 39 more
+2018-04-28 09:26:15,669 0      [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878775342 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878775342 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878775342 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878775342 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 39 more
+2018-04-28 09:26:22,703 7034   [bio-8088-exec-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878782637 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878782637 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 34 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878782637 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 36 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878782637 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 44 more
+2018-04-28 09:26:24,665 8996   [bio-8088-exec-3] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878784642 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.service.ItemService com.coppco.item.controller.ItemController.itemService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878784642 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 34 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878784642 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 36 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.coppco.service.ItemService. No provider available for the service com.coppco.service.ItemService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-item-web&dubbo=2.5.3&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=27381&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1524878784642 to the consumer 192.168.1.197 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 44 more
+2018-04-30 08:17:29,455 1      [ost-startStop-1] ERROR oting.transport.AbstractClient  -  [DUBBO] Failed to start NettyClient 192.168.1.104/192.168.1.104 connect to the server /192.168.1.197:20880 (check == false, ignore and retry later!), cause: client(url: dubbo://192.168.1.197:20880/com.coppco.service.ItemService?anyhost=true&application=taotao-item-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=39862&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1525047356180) failed to connect to server /192.168.1.197:20880 client-side timeout 3000ms (elapsed: 3001ms) from netty client 192.168.1.104 using dubbo version 2.5.3, dubbo version: 2.5.3, current host: 192.168.1.104
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.1.197:20880/com.coppco.service.ItemService?anyhost=true&application=taotao-item-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=39862&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1525047356180) failed to connect to server /192.168.1.197:20880 client-side timeout 3000ms (elapsed: 3001ms) from netty client 192.168.1.104 using dubbo version 2.5.3
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:127)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.initClient(DubboProtocol.java:378)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getSharedClient(DubboProtocol.java:344)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.getClients(DubboProtocol.java:321)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.refer(DubboProtocol.java:303)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:62)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:65)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.toInvokers(RegistryDirectory.java:395)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:224)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:195)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:449)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:273)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:259)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:170)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.subscribe(FailbackRegistry.java:189)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.subscribe(RegistryDirectory.java:133)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doRefer(RegistryProtocol.java:271)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:254)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:60)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:63)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:392)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 09:36:19,053 0      [erContainer#0-1] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> item.images  [in template "item.ftl" at line 145, column 83]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${item.images[0]}  [in template "item.ftl" at line 145, column 81]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:54)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.item.listener.ItemAddListener.onMessage(ItemAddListener.java:62)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 09:44:27,540 1      [erContainer#0-1] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> item.images  [in template "item.ftl" at line 145, column 83]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${item.images[0]!}  [in template "item.ftl" at line 145, column 81]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:54)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.DefaultToExpression._eval(DefaultToExpression.java:80)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.item.listener.ItemAddListener.onMessage(ItemAddListener.java:62)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 09:48:42,702 1      [erContainer#0-1] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> item.images  [in template "item.ftl" at line 145, column 83]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${item.images[0]!"https://www.baidu.c...  [in template "item.ftl" at line 145, column 81]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:54)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.DefaultToExpression._eval(DefaultToExpression.java:80)
+	at freemarker.core.Expression.eval(Expression.java:78)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.item.listener.ItemAddListener.onMessage(ItemAddListener.java:62)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 09:51:47,458 184757 [erContainer#0-1] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> item.images  [in template "item.ftl" at line 153, column 56]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list item.images as pic  [in template "item.ftl" at line 153, column 49]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.Expression.assertNonNull(Expression.java:194)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:74)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.item.listener.ItemAddListener.onMessage(ItemAddListener.java:62)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 09:52:21,073 218372 [erContainer#0-1] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> item.images  [in template "item.ftl" at line 153, column 56]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list item.images as pic  [in template "item.ftl" at line 153, column 49]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.Expression.assertNonNull(Expression.java:194)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:74)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.item.listener.ItemAddListener.onMessage(ItemAddListener.java:62)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 09:52:52,419 0      [erContainer#0-1] ERROR             freemarker.runtime  - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> item.images  [in template "item.ftl" at line 153, column 56]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #list item.images as pic  [in template "item.ftl" at line 153, column 49]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.Expression.assertNonNull(Expression.java:194)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:74)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.coppco.item.listener.ItemAddListener.onMessage(ItemAddListener.java:62)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-30 12:06:53,946 0      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:06:55,956 2010   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:06:57,668 3722   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:06:59,247 5301   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:01,096 7150   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:02,493 8547   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:03,762 9816   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:05,703 11757  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:06,836 12890  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:08,097 14151  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:09,795 15849  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:11,557 17611  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:13,586 19640  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:15,605 21659  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:17,331 23385  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:19,186 25240  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:21,032 27086  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 12:07:22,891 28945  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 13:20:43,003 4429057 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-04-30 13:20:43,086 4429140 [tTimer-thread-1] ERROR oting.transport.AbstractClient  -  [DUBBO] client reconnect to 192.168.1.104:20880 find error . url: dubbo://192.168.1.104:20880/com.coppco.service.ItemService?anyhost=true&application=taotao-item-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=40458&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1525053358849, dubbo version: 2.5.3, current host: 192.168.1.104
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.1.104:20880/com.coppco.service.ItemService?anyhost=true&application=taotao-item-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=40458&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1525053358849) failed to connect to server /192.168.1.104:20880, error message is:Network is unreachable
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.channel.Channels.connect(Channels.java:634)
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:88)
+	... 9 more
+2018-05-01 08:42:21,115 74127169 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-01 13:26:37,542 91183596 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-01 13:26:38,808 91184862 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-01 13:26:40,337 91186391 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:42,092 140568146 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:44,142 140570196 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:45,733 140571787 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:47,497 140573551 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:49,354 140575408 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:51,332 140577386 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:52,998 140579052 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:54,975 140581029 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:56,483 140582537 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:58,312 140584366 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 03:09:59,502 140585556 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:19:55,794 159181848 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:19:57,356 159183410 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:19:58,745 159184799 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:00,197 159186251 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:01,604 159187658 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:03,363 159189417 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:05,114 159191168 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:06,792 159192846 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:08,171 159194225 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:10,092 159196146 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:11,730 159197784 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:13,653 159199707 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:15,242 159201296 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:17,103 159203157 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:20:18,712 159204766 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:46:53,445 160799499 [tTimer-thread-2] ERROR oting.transport.AbstractClient  -  [DUBBO] client reconnect to 192.168.1.104:20880 find error . url: dubbo://192.168.1.104:20880/com.coppco.service.ItemService?anyhost=true&application=taotao-item-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=40458&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1525053358849, dubbo version: 2.5.3, current host: 192.168.1.104
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.1.104:20880/com.coppco.service.ItemService?anyhost=true&application=taotao-item-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.coppco.service.ItemService&methods=getItemList,getItemDescById,addItem,getItemById&pid=40458&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1525053358849) failed to connect to server /192.168.1.104:20880, error message is:Network is unreachable
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:465)
+	at sun.nio.ch.Net.connect(Net.java:457)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:108)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:70)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.channel.Channels.connect(Channels.java:634)
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:88)
+	... 9 more
+2018-05-02 08:46:54,297 160800351 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:46:56,013 160802067 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:46:58,124 160804178 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:46:59,853 160805907 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-02 08:47:01,644 160807698 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:11,060 2      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:13,194 2136   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:14,795 3737   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:16,857 5799   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:18,293 7235   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:20,195 9137   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:22,228 11170  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:23,641 12583  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 02:15:25,161 14103  [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:15:22,006 3610948 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:15:54,837 3643779 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:15:56,884 3645826 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:15:58,528 3647470 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:00,213 3649155 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:01,474 3650416 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:02,818 3651760 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:04,468 3653410 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:05,852 3654794 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:07,068 3656010 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:08,282 3657224 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:10,160 3659102 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 03:16:11,334 3660276 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:37,968 7286910 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:40,004 7288946 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:41,155 7290097 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:42,457 7291399 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:44,283 7293225 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:45,662 7294604 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:47,162 7296104 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:49,278 7298220 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:51,126 7300068 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:53,114 7302056 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:54,783 7303725 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 04:16:56,887 7305829 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:23,930 10932872 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:25,376 10934318 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:27,021 10935963 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:28,697 10937639 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:30,087 10939029 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:31,638 10940580 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:33,117 10942059 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:35,022 10943964 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:36,756 10945698 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:38,367 10947309 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:40,082 10949024 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 05:17:41,752 10950694 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:20,263 15249205 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:21,559 15250501 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:22,889 15251831 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:24,706 15253648 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:26,002 15254944 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:27,696 15256638 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:29,604 15258546 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:30,988 15259930 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:33,077 15262019 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:34,823 15263765 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:36,069 15265011 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:29:37,778 15266720 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:32:59,134 15468076 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:01,053 15469995 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:02,931 15471873 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:04,747 15473689 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:06,656 15475598 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:07,896 15476838 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:09,691 15478633 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:10,994 15479936 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:12,869 15481811 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 06:33:14,516 15483458 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:41,714 19110656 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:43,157 19112099 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:45,226 19114168 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:46,703 19115645 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:47,832 19116774 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:49,889 19118831 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:51,164 19120106 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:52,415 19121357 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:54,496 19123438 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:55,885 19124827 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:57,391 19126333 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:33:59,402 19128344 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 07:34:00,610 19129552 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:23:24,303 22093245 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:23:25,584 22094526 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:23:26,800 22095742 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:23:28,089 22097031 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:23:29,409 22098351 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:23:31,359 22100301 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:43:56,075 23325017 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:43:57,738 23326680 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:01,001 23569943 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:02,547 23571489 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:04,341 23573283 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:06,161 23575103 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:07,717 23576659 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:09,159 23578101 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:10,628 23579570 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:11,938 23580880 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 08:48:14,031 23582973 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:19,182 1      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:20,813 1632   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:22,294 3113   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:42:57,009 3637828 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:42:58,374 3639193 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:42:59,840 3640659 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:01,925 3642744 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:03,503 3644322 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:04,625 3645444 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:05,860 3646679 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:07,527 3648346 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:09,554 3650373 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:10,802 3651621 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:28,172 4448991 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:29,838 4450657 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:31,423 4452242 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:32,903 4453722 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:34,705 4455524 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:36,396 4457215 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:38,058 4458877 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:39,932 4460751 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:41,967 4462786 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:43,732 4464551 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:03:55,856 19296675 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:03:57,817 19298636 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:29,012 20409831 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:30,736 20411555 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:32,197 20413016 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:33,352 20414171 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:34,688 20415507 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181

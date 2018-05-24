@@ -3,11 +3,8 @@ package com.coppco.search.listener;
 import com.coppco.common.pojo.SearchItem;
 import com.coppco.search.mapper.SearchItemMapper;
 import org.apache.solr.client.solrj.SolrClient;
-import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;

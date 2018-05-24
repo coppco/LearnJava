@@ -1,0 +1,95 @@
+2018-05-20 16:42:13,131 0      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:14,674 1543   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:15,974 2843   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:17,691 4560   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:19,345 6214   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:20,994 7863   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 16:42:22,599 9468   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:42:56,729 3643598 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:42:58,087 3644956 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:42:59,237 3646106 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:00,702 3647571 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:02,534 3649403 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:04,641 3651510 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:05,795 3652664 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:07,442 3654311 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:08,581 3655450 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:43:10,360 3657229 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:28,501 4455370 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:30,147 4457016 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:31,888 4458757 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:33,972 4460841 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:35,202 4462071 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:37,022 4463891 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:38,337 4465206 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:39,867 4466736 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:41,782 4468651 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 17:56:43,002 4469871 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:30,673 11717542 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:32,237 11719106 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:33,413 11720282 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:34,957 11721826 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:36,973 11723842 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:38,694 11725563 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 19:57:39,867 11726736 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 21:36:37,914 1      [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.order.service.OrderService com.coppco.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.order.service.OrderService. No provider available for the service com.coppco.order.service.OrderService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-order-web&dubbo=2.5.3&interface=com.coppco.order.service.OrderService&methods=createOrder&pid=13948&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1526823397875 to the consumer 192.168.1.100 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.coppco.order.service.OrderService com.coppco.order.controller.OrderController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.order.service.OrderService. No provider available for the service com.coppco.order.service.OrderService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-order-web&dubbo=2.5.3&interface=com.coppco.order.service.OrderService&methods=createOrder&pid=13948&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1526823397875 to the consumer 192.168.1.100 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderServiceImpl': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.coppco.order.service.OrderService. No provider available for the service com.coppco.order.service.OrderService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-order-web&dubbo=2.5.3&interface=com.coppco.order.service.OrderService&methods=createOrder&pid=13948&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1526823397875 to the consumer 192.168.1.100 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1585)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.coppco.order.service.OrderService. No provider available for the service com.coppco.order.service.OrderService from the url zookeeper://192.168.1.184:2181/com.alibaba.dubbo.registry.RegistryService?application=taotao-order-web&dubbo=2.5.3&interface=com.coppco.order.service.OrderService&methods=createOrder&pid=13948&revision=1.0-SNAPSHOT&side=consumer&timeout=1200000&timestamp=1526823397875 to the consumer 192.168.1.100 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 39 more
+2018-05-20 22:03:56,746 0      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:28,003 1111257 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:29,748 1113002 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:31,716 1114970 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:33,290 1116544 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-05-20 22:22:34,430 1117684 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
