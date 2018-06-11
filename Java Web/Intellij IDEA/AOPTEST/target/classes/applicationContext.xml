@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+
+    <!--注解扫描-->
+    <context:component-scan base-package="com.coppco"/>
+
+
+
+    <!--使用xml配置文件方式-->
+    <!--<bean id="logAspect" class="com.coppco.aspect.LogAspect"/>-->
+    <!--<aop:config>-->
+        <!--&lt;!&ndash; 引入切面类 &ndash;&gt;-->
+        <!--<aop:aspect ref="logAspect">-->
+            <!--&lt;!&ndash; 定义通知类型、切面类的方法和切入点的表达式 &ndash;&gt;-->
+            <!--<aop:before method="before" pointcut="execution(public * com..UserServiceImpl.say*(..))"/>-->
+            <!--<aop:after-returning method="after" pointcut="execution(public * com..UserServiceImpl.say*(..))"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <!--开启AspectJ自动代理-->
+    <aop:aspectj-autoproxy/>
+
+
+    <beans profile="develop">
+        <context:property-placeholder location="develop.properties, name.properties" ignore-unresolvable="true"/>
+    </beans>
+
+    <beans profile="product">
+        <context:property-placeholder location="product.properties, name.properties" ignore-unresolvable="true"/>
+    </beans>
+
+</beans>
+

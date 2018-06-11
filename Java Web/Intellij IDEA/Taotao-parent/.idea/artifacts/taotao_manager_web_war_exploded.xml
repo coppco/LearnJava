@@ -35,7 +35,7 @@
             <element id="module-output" name="taotao-manager-pojo" />
           </element>
           <element id="archive" name="taotao-content-interface-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="taotao-order-interface" />
+            <element id="module-output" name="taotao-content-interface" />
           </element>
           <element id="archive" name="taotao-search-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="taotao-search-interface" />

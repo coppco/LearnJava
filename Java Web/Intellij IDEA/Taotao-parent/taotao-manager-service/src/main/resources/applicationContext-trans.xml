@@ -16,7 +16,7 @@
     <!--事务扫描-->
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
-    <!--通知-->
+    <!--事务通知(事务增强)-->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="save*" propagation="REQUIRED"/>

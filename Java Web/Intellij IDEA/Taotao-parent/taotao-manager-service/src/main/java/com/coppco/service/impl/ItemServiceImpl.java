@@ -19,13 +19,15 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import javax.jms.*;
 import java.util.Date;
 import java.util.List;
 
-
+@Transactional(propagation = Propagation.REQUIRED)
 @Service
 public class ItemServiceImpl implements ItemService {
 
