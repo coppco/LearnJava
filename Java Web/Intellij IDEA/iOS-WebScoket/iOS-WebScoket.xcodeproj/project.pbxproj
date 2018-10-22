@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DF4BC120D4341F00436E9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF4BC020D4341F00436E9C /* AppDelegate.m */; };
+		18DF4BC420D4341F00436E9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF4BC320D4341F00436E9C /* ViewController.m */; };
+		18DF4BC720D4341F00436E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF4BC520D4341F00436E9C /* Main.storyboard */; };
+		18DF4BC920D4341F00436E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DF4BC820D4341F00436E9C /* Assets.xcassets */; };
+		18DF4BCC20D4341F00436E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF4BCA20D4341F00436E9C /* LaunchScreen.storyboard */; };
+		18DF4BCF20D4341F00436E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF4BCE20D4341F00436E9C /* main.m */; };
+		18DF4BD920D4341F00436E9C /* iOS_WebScoketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF4BD820D4341F00436E9C /* iOS_WebScoketTests.m */; };
+		18DF4BE420D4341F00436E9C /* iOS_WebScoketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF4BE320D4341F00436E9C /* iOS_WebScoketUITests.m */; };
+		4276896DF9CC9E75794EE4B0 /* libPods-iOS-WebScoket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA69F1F3DC8C43DE1F26CBF /* libPods-iOS-WebScoket.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DF4BD520D4341F00436E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DF4BB420D4341F00436E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DF4BBB20D4341F00436E9C;
+			remoteInfo = "iOS-WebScoket";
+		};
+		18DF4BE020D4341F00436E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DF4BB420D4341F00436E9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DF4BBB20D4341F00436E9C;
+			remoteInfo = "iOS-WebScoket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DF4BBC20D4341F00436E9C /* iOS-WebScoket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-WebScoket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DF4BBF20D4341F00436E9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DF4BC020D4341F00436E9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18DF4BC220D4341F00436E9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18DF4BC320D4341F00436E9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18DF4BC620D4341F00436E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DF4BC820D4341F00436E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DF4BCB20D4341F00436E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DF4BCD20D4341F00436E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DF4BCE20D4341F00436E9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DF4BD420D4341F00436E9C /* iOS-WebScoketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-WebScoketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DF4BD820D4341F00436E9C /* iOS_WebScoketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_WebScoketTests.m; sourceTree = "<group>"; };
+		18DF4BDA20D4341F00436E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DF4BDF20D4341F00436E9C /* iOS-WebScoketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-WebScoketUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DF4BE320D4341F00436E9C /* iOS_WebScoketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_WebScoketUITests.m; sourceTree = "<group>"; };
+		18DF4BE520D4341F00436E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA69F1F3DC8C43DE1F26CBF /* libPods-iOS-WebScoket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-WebScoket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDD5281DBFDBEE9C153F032 /* Pods-iOS-WebScoket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-WebScoket.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-WebScoket/Pods-iOS-WebScoket.release.xcconfig"; sourceTree = "<group>"; };
+		DF3CCE7D5947CFAFE30A039F /* Pods-iOS-WebScoket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-WebScoket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-WebScoket/Pods-iOS-WebScoket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DF4BB920D4341F00436E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276896DF9CC9E75794EE4B0 /* libPods-iOS-WebScoket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF4BD120D4341F00436E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF4BDC20D4341F00436E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DF4BB320D4341F00436E9C = {
+			isa = PBXGroup;
+			children = (
+				18DF4BBE20D4341F00436E9C /* iOS-WebScoket */,
+				18DF4BD720D4341F00436E9C /* iOS-WebScoketTests */,
+				18DF4BE220D4341F00436E9C /* iOS-WebScoketUITests */,
+				18DF4BBD20D4341F00436E9C /* Products */,
+				381FC9F3D684AC4BD98BE574 /* Pods */,
+				8A9AF7A848CE5516ECF1FAE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18DF4BBD20D4341F00436E9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DF4BBC20D4341F00436E9C /* iOS-WebScoket.app */,
+				18DF4BD420D4341F00436E9C /* iOS-WebScoketTests.xctest */,
+				18DF4BDF20D4341F00436E9C /* iOS-WebScoketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DF4BBE20D4341F00436E9C /* iOS-WebScoket */ = {
+			isa = PBXGroup;
+			children = (
+				18DF4BBF20D4341F00436E9C /* AppDelegate.h */,
+				18DF4BC020D4341F00436E9C /* AppDelegate.m */,
+				18DF4BC220D4341F00436E9C /* ViewController.h */,
+				18DF4BC320D4341F00436E9C /* ViewController.m */,
+				18DF4BC520D4341F00436E9C /* Main.storyboard */,
+				18DF4BC820D4341F00436E9C /* Assets.xcassets */,
+				18DF4BCA20D4341F00436E9C /* LaunchScreen.storyboard */,
+				18DF4BCD20D4341F00436E9C /* Info.plist */,
+				18DF4BCE20D4341F00436E9C /* main.m */,
+			);
+			path = "iOS-WebScoket";
+			sourceTree = "<group>";
+		};
+		18DF4BD720D4341F00436E9C /* iOS-WebScoketTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DF4BD820D4341F00436E9C /* iOS_WebScoketTests.m */,
+				18DF4BDA20D4341F00436E9C /* Info.plist */,
+			);
+			path = "iOS-WebScoketTests";
+			sourceTree = "<group>";
+		};
+		18DF4BE220D4341F00436E9C /* iOS-WebScoketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18DF4BE320D4341F00436E9C /* iOS_WebScoketUITests.m */,
+				18DF4BE520D4341F00436E9C /* Info.plist */,
+			);
+			path = "iOS-WebScoketUITests";
+			sourceTree = "<group>";
+		};
+		381FC9F3D684AC4BD98BE574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF3CCE7D5947CFAFE30A039F /* Pods-iOS-WebScoket.debug.xcconfig */,
+				6EDD5281DBFDBEE9C153F032 /* Pods-iOS-WebScoket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A9AF7A848CE5516ECF1FAE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CA69F1F3DC8C43DE1F26CBF /* libPods-iOS-WebScoket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DF4BBB20D4341F00436E9C /* iOS-WebScoket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DF4BE820D4341F00436E9C /* Build configuration list for PBXNativeTarget "iOS-WebScoket" */;
+			buildPhases = (
+				F56BE9FEAE5EAA09370D0F67 /* [CP] Check Pods Manifest.lock */,
+				18DF4BB820D4341F00436E9C /* Sources */,
+				18DF4BB920D4341F00436E9C /* Frameworks */,
+				18DF4BBA20D4341F00436E9C /* Resources */,
+				08EDC41EB5CBCDE1E51BBE01 /* [CP] Embed Pods Frameworks */,
+				A059335B82168CD0BE898F3D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-WebScoket";
+			productName = "iOS-WebScoket";
+			productReference = 18DF4BBC20D4341F00436E9C /* iOS-WebScoket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DF4BD320D4341F00436E9C /* iOS-WebScoketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DF4BEB20D4341F00436E9C /* Build configuration list for PBXNativeTarget "iOS-WebScoketTests" */;
+			buildPhases = (
+				18DF4BD020D4341F00436E9C /* Sources */,
+				18DF4BD120D4341F00436E9C /* Frameworks */,
+				18DF4BD220D4341F00436E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DF4BD620D4341F00436E9C /* PBXTargetDependency */,
+			);
+			name = "iOS-WebScoketTests";
+			productName = "iOS-WebScoketTests";
+			productReference = 18DF4BD420D4341F00436E9C /* iOS-WebScoketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18DF4BDE20D4341F00436E9C /* iOS-WebScoketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DF4BEE20D4341F00436E9C /* Build configuration list for PBXNativeTarget "iOS-WebScoketUITests" */;
+			buildPhases = (
+				18DF4BDB20D4341F00436E9C /* Sources */,
+				18DF4BDC20D4341F00436E9C /* Frameworks */,
+				18DF4BDD20D4341F00436E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DF4BE120D4341F00436E9C /* PBXTargetDependency */,
+			);
+			name = "iOS-WebScoketUITests";
+			productName = "iOS-WebScoketUITests";
+			productReference = 18DF4BDF20D4341F00436E9C /* iOS-WebScoketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DF4BB420D4341F00436E9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18DF4BBB20D4341F00436E9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18DF4BD320D4341F00436E9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18DF4BBB20D4341F00436E9C;
+					};
+					18DF4BDE20D4341F00436E9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18DF4BBB20D4341F00436E9C;
+					};
+				};
+			};
+			buildConfigurationList = 18DF4BB720D4341F00436E9C /* Build configuration list for PBXProject "iOS-WebScoket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DF4BB320D4341F00436E9C;
+			productRefGroup = 18DF4BBD20D4341F00436E9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DF4BBB20D4341F00436E9C /* iOS-WebScoket */,
+				18DF4BD320D4341F00436E9C /* iOS-WebScoketTests */,
+				18DF4BDE20D4341F00436E9C /* iOS-WebScoketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DF4BBA20D4341F00436E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF4BCC20D4341F00436E9C /* LaunchScreen.storyboard in Resources */,
+				18DF4BC920D4341F00436E9C /* Assets.xcassets in Resources */,
+				18DF4BC720D4341F00436E9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF4BD220D4341F00436E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF4BDD20D4341F00436E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08EDC41EB5CBCDE1E51BBE01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-WebScoket/Pods-iOS-WebScoket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A059335B82168CD0BE898F3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-WebScoket/Pods-iOS-WebScoket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56BE9FEAE5EAA09370D0F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-WebScoket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DF4BB820D4341F00436E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF4BC420D4341F00436E9C /* ViewController.m in Sources */,
+				18DF4BCF20D4341F00436E9C /* main.m in Sources */,
+				18DF4BC120D4341F00436E9C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF4BD020D4341F00436E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF4BD920D4341F00436E9C /* iOS_WebScoketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DF4BDB20D4341F00436E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DF4BE420D4341F00436E9C /* iOS_WebScoketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DF4BD620D4341F00436E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DF4BBB20D4341F00436E9C /* iOS-WebScoket */;
+			targetProxy = 18DF4BD520D4341F00436E9C /* PBXContainerItemProxy */;
+		};
+		18DF4BE120D4341F00436E9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DF4BBB20D4341F00436E9C /* iOS-WebScoket */;
+			targetProxy = 18DF4BE020D4341F00436E9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DF4BC520D4341F00436E9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DF4BC620D4341F00436E9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DF4BCA20D4341F00436E9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DF4BCB20D4341F00436E9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DF4BE620D4341F00436E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DF4BE720D4341F00436E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DF4BE920D4341F00436E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF3CCE7D5947CFAFE30A039F /* Pods-iOS-WebScoket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-WebScoket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJUtiles.iOS-WebScoket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DF4BEA20D4341F00436E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDD5281DBFDBEE9C153F032 /* Pods-iOS-WebScoket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-WebScoket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJUtiles.iOS-WebScoket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18DF4BEC20D4341F00436E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-WebScoketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJUtiles.iOS-WebScoketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-WebScoket.app/iOS-WebScoket";
+			};
+			name = Debug;
+		};
+		18DF4BED20D4341F00436E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-WebScoketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJUtiles.iOS-WebScoketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-WebScoket.app/iOS-WebScoket";
+			};
+			name = Release;
+		};
+		18DF4BEF20D4341F00436E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-WebScoketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJUtiles.iOS-WebScoketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-WebScoket";
+			};
+			name = Debug;
+		};
+		18DF4BF020D4341F00436E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-WebScoketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJUtiles.iOS-WebScoketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-WebScoket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DF4BB720D4341F00436E9C /* Build configuration list for PBXProject "iOS-WebScoket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF4BE620D4341F00436E9C /* Debug */,
+				18DF4BE720D4341F00436E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DF4BE820D4341F00436E9C /* Build configuration list for PBXNativeTarget "iOS-WebScoket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF4BE920D4341F00436E9C /* Debug */,
+				18DF4BEA20D4341F00436E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DF4BEB20D4341F00436E9C /* Build configuration list for PBXNativeTarget "iOS-WebScoketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF4BEC20D4341F00436E9C /* Debug */,
+				18DF4BED20D4341F00436E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DF4BEE20D4341F00436E9C /* Build configuration list for PBXNativeTarget "iOS-WebScoketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DF4BEF20D4341F00436E9C /* Debug */,
+				18DF4BF020D4341F00436E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DF4BB420D4341F00436E9C /* Project object */;
+}

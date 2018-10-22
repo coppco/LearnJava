@@ -18,6 +18,7 @@ public class AdviceController {
         modelAndView.addObject("errorMessage", exception.getMessage());
         return modelAndView;
     }
+    
 
     @ModelAttribute
     public void addAttributes(Model model) {

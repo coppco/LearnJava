@@ -35,6 +35,9 @@
   <servlet-mapping>
     <servlet-name>taotao-manager-web</servlet-name>
     <!--拦截所有请求,jsp除外-->
+    <!--/*-->
+    <!--/-->
+
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 

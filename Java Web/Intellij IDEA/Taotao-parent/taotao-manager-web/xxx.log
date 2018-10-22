@@ -13169,3 +13169,12 @@ Caused by: java.lang.IllegalStateException: Failed to check the status of the se
 2018-05-20 22:22:32,636 72474174 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
 2018-05-20 22:22:33,896 72475434 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
 2018-05-20 22:22:35,028 72476566 [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:48,135 0      [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:49,247 1112   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:50,357 2222   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:51,468 3333   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:52,575 4440   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:53,685 5550   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:54,793 6658   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:55,901 7766   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181
+2018-06-25 17:09:57,010 8875   [168.1.184:2181)] ERROR .zookeeper.ClientCnxnSocketNIO  - Unable to open socket to 192.168.1.184/192.168.1.184:2181

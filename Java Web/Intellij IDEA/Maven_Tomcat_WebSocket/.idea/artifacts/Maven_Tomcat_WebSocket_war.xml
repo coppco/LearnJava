@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Maven_Tomcat_WebSocket:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Maven_Tomcat_WebSocket.war">
+      <element id="artifact" artifact-name="Maven_Tomcat_WebSocket:war exploded" />
+    </root>
+  </artifact>
+</component>

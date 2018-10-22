@@ -110,6 +110,13 @@
             <version>${slf4j.version}</version>
         </dependency>
 
+        <!--参数校验-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.4.2.Final</version>
+        </dependency>
+
         <!--<dependency>-->
             <!--<groupId>ch.qos.logback</groupId>-->
             <!--<artifactId>logback-classic</artifactId>-->
